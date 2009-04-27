@@ -1,0 +1,61 @@
+<0.15.5.95.09.40.16.mc8b+@andrew.cmu.edu.0>
+Type:     cmu.cs.scs
+Topic:    Special ECE Seminar May 19
+Dates:    19-May-95
+Time:     <stime>11:00 AM</stime>
+Place:    <location>HH 1112</location>
+PostedBy: Mary Anne Cowden on 15-May-95 at 09:40 from andrew.cmu.edu
+Abstract: 
+
+
+<paragraph><sentence>There will be a special seminar this Friday, May 19, given by J. Eric Bracken, 
+an ECE faculty candidate</sentence>.  <sentence>Please see the announcement below</sentence>.</paragraph>
+
+*******************************************************************************
+
+                    Interconnect Analysis via Passive Circuit Synthesis
+
+                                                    <speaker>J. Eric Bracken</speaker>
+                                        Carnegie Mellon University
+
+<paragraph>	<sentence>Recently, there has been a great deal of interest in the creation of
+low-order models to represent the behavior of linear interconnect
+circuits</sentence>. <sentence>Through approaches such as asymptotic waveform evaluation
+(AWE) and Pade' approximation, it is possible to efficiently compute a
+simple macromodel of a complicated interconnect</sentence>. <sentence>This macromodel can be
+combined with nonlinear driver and receiver models to accelerate the
+analysis of the circuit's responses</sentence>.</paragraph>
+
+<paragraph>	<sentence>One problem with Pade' approximation is that it may generate unstable
+results</sentence>. <sentence>These instabilities arise because the macromodel actually
+represents an active, energy-producing network</sentence>. <sentence>It would be better for
+an interconnect model to be totally passive, never generating energy on
+its own</sentence>. <sentence>In this talk, we discuss the instability problem by appealing
+to certain classical techniques of passive circuit synthesis</sentence>. <sentence>It is
+shown that AWE is mathematically equivalent to the development of a
+ladder circuit that realizes the Pade' approximation in virtual
+"hardware</sentence>." <sentence>For certain classes of circuits and certain pairs of
+input/output responses, the ladder realization consists entirely of
+positive-valued circuit elements; as a consequence, it is guaranteed to
+be passive and stable</sentence>.</paragraph>
+
+<paragraph>	<sentence>The conditions under which Pade' approximation can be expected to
+produce stable results will be discussed</sentence>. <sentence>Also, the limitations of Pade'
+approximation will be described: for certain types of circuits and
+responses, there is simply no guarantee that stable results can be
+found</sentence>. <sentence>To overcome these problems, it is necessary to replace Pade'
+approximation by other efficient algorithms for finding low-order
+models</sentence>. <sentence>Fortunately, the notion of synthesizing a passive model can be
+extended to more general classes of circuits</sentence>. <sentence>We will conclude the talk
+by describing some promising new approaches to interconnect analysis
+based upon this idea</sentence>.</paragraph>
+
+                                     DATE:  Friday, May 19, 1995
+
+                                             TIME:  <stime>11:00 a.m</stime>.
+
+                                           PLACE:  <location>HH 1112</location>
+
+*******************************************************************************
+***
+

@@ -1,0 +1,258 @@
+{'token': 'reuters', 'suffix': 's', 'annotations': ['<purchabr>', '</purchabr>'], 'erc': [], 'chunks': [], 'stem': 'reuter', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_UPPER'], 'gaz': []}
+{'token': 'to', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'to', 'pos': 'TO', 'types': ['WORD', 'ALL_UPPER'], 'gaz': ['stopword']}
+{'token': 'buy', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'bui', 'pos': 'NNP', 'types': ['WORD', 'ALL_UPPER'], 'gaz': []}
+{'token': 'i', 'suffix': '', 'annotations': ['<acqabr>'], 'erc': [], 'chunks': [], 'stem': 'i', 'pos': 'PRP', 'types': ['WORD', 'ALL_UPPER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'p', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'p', 'pos': 'NNP', 'types': ['WORD', 'ALL_UPPER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'sharp', 'suffix': '', 'annotations': ['</acqabr>'], 'erc': [], 'chunks': ['NP_e'], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'ALL_UPPER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_UPPER'], 'gaz': ['stopword']}
+{'token': 'canada', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'canada', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'ALL_UPPER'], 'gaz': ['location', 'country']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'london', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'london', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'ALL_UPPER'], 'gaz': ['location', 'city']}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'march', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'march', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': ['date', 'month']}
+{'token': '25', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '25', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': '-', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '-', 'pos': '', 'types': ['SYMBOL', 'PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'reuters', 'suffix': 's', 'annotations': ['<purchaser>'], 'erc': [], 'chunks': ['NP_s'], 'stem': 'reuter', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'holdings', 'suffix': 'ings', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'hold', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'plc', 'suffix': '', 'annotations': ['</purchaser>'], 'erc': [], 'chunks': ['NP_e'], 'stem': 'plc', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': '{', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '{', 'pos': '', 'types': ['LBRAC', 'PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'rtrs', 'suffix': 's', 'annotations': ['<purchcode>'], 'erc': [], 'chunks': [], 'stem': 'rtr', 'pos': 'NNS', 'types': ['WORD', 'ALL_UPPER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'l', 'suffix': '', 'annotations': ['</purchcode>'], 'erc': [], 'chunks': [], 'stem': 'l', 'pos': 'NNP', 'types': ['WORD', 'ALL_UPPER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': '}', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '}', 'pos': '', 'types': ['RBRAC', 'PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'said', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'said', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'it', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'it', 'pos': 'PRP', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'had', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_s'], 'stem': 'had', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'agreed', 'suffix': 'ed', 'annotations': ['<status>'], 'erc': [], 'chunks': ['VP_e'], 'stem': 'agre', 'pos': 'VBN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'principle', 'suffix': 'e', 'annotations': ['</status>'], 'erc': [], 'chunks': [], 'stem': 'principl', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'to', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'to', 'pos': 'TO', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'buy', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'bui', 'pos': 'VB', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': '{', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '{', 'pos': '', 'types': ['LBRAC', 'PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'i', 'suffix': '', 'annotations': ['<acquired>'], 'erc': [], 'chunks': [], 'stem': 'i', 'pos': 'PRP', 'types': ['WORD', 'ALL_UPPER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'p', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'p', 'pos': 'NNP', 'types': ['WORD', 'ALL_UPPER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'sharp', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': 'associates', 'suffix': 'ates', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'associ', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'ltd', 'suffix': '', 'annotations': ['</acquired>'], 'erc': [], 'chunks': [], 'stem': 'ltd', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': ['stopword']}
+{'token': '}', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '}', 'pos': '', 'types': ['RBRAC', 'PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'toronto', 'suffix': '', 'annotations': ['<acqloc>', '</acqloc>'], 'erc': [], 'chunks': [], 'stem': 'toronto', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': ['location', 'city']}
+{'token': 'for', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'for', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': '30', 'suffix': '', 'annotations': ['<dlramt>'], 'erc': [], 'chunks': [], 'stem': '30', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': '4', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '4', 'pos': '', 'types': ['NUM', '1_DIGIT_NUM', 'S_NUM', 'S_CHAR'], 'gaz': []}
+{'token': 'mln', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'mln', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'stg', 'suffix': '', 'annotations': ['</dlramt>'], 'erc': [], 'chunks': ['NP_e'], 'stem': 'stg', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'sharp', 'suffix': '', 'annotations': ['<acqabr>', '</acqabr>'], 'erc': [], 'chunks': [], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': 'is', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'is', 'pos': 'VBZ', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'time-sharing', 'suffix': 'ing', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'time-shar', 'pos': 'JJ', 'types': [], 'gaz': []}
+{'token': 'network', 'suffix': '', 'annotations': ['<acqbus>'], 'erc': [], 'chunks': ['NP_e'], 'stem': 'network', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'and', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'and', 'pos': 'CC', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'database', 'suffix': 'e', 'annotations': ['</acqbus>'], 'erc': [], 'chunks': ['NP_s'], 'stem': 'databas', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'company', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'compani', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'specialising', 'suffix': 'ing', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'specialis', 'pos': 'VBG', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'finance', 'suffix': 'e', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'financ', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'economics', 'suffix': 'ics', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'econom', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'energy', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'energi', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'and', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'and', 'pos': 'CC', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'aviation', 'suffix': 'ion', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'aviat', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'it', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'it', 'pos': 'PRP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'operates', 'suffix': 'ates', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'oper', 'pos': 'VBZ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'global', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'global', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'packet-switching', 'suffix': 'ing', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'packet-switch', 'pos': 'JJ', 'types': [], 'gaz': []}
+{'token': 'network', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'network', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'and', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'and', 'pos': 'CC', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'global', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'global', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'limits', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'limit', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'systems', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'system', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'for', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'for', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'foreign', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'foreign', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'exchange', 'suffix': 'e', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'exchang', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'trading', 'suffix': 'ng', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'trade', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'sharp', 'suffix': '', 'annotations': ['<acqabr>', '</acqabr>'], 'erc': [], 'chunks': ['NP_s'], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': 'shareholders', 'suffix': 'ers', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'sharehold', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'will', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_s'], 'stem': 'will', 'pos': 'MD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'be', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_i'], 'stem': 'be', 'pos': 'VB', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'offered', 'suffix': 'ed', 'annotations': [], 'erc': [], 'chunks': ['VP_e'], 'stem': 'offer', 'pos': 'VBN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'cash', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'cash', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'shares', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'share', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'or', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'or', 'pos': 'CC', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'mixture', 'suffix': 'e', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'mixtur', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'two', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'two', 'pos': 'CD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['number', 'stopword']}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'settlement', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'settlement', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'CAPITALIZED'], 'gaz': ['stopword']}
+{'token': 'acquisition', 'suffix': 'ion', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'acquisit', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'which', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'which', 'pos': 'WDT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'is', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'is', 'pos': 'VBZ', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'subject', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'subject', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'to', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'to', 'pos': 'TO', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'canadian', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'canadian', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'government', 'suffix': 'ment', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'govern', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'approval', 'suffix': 'al', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'approv', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'would', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_s'], 'stem': 'would', 'pos': 'MD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'be', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_e'], 'stem': 'be', 'pos': 'VB', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'through', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'through', 'pos': 'IN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'amalgamation', 'suffix': 'ation', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'amalgam', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'into', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'into', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'specially-created', 'suffix': 'eated', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'specially-cr', 'pos': 'JJ', 'types': [], 'gaz': []}
+{'token': 'company', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'compani', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'reuters', 'suffix': 's', 'annotations': ['<purchabr>', '</purchabr>'], 'erc': [], 'chunks': [], 'stem': 'reuter', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'said', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'said', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'it', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'it', 'pos': 'PRP', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'had', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_s'], 'stem': 'had', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'been', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_e'], 'stem': 'been', 'pos': 'VBN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'given', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'given', 'pos': 'VBN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'options', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'option', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'by', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'by', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'number', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'number', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'sharp', 'suffix': '', 'annotations': ['<acqabr>', '</acqabr>'], 'erc': [], 'chunks': [], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'shareholders', 'suffix': 'ers', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'sharehold', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'covering', 'suffix': 'ing', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'cover', 'pos': 'VBG', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '67', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '67', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': 'pct', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'pct', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'common', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'common', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': ['address', 'location']}
+{'token': 'stock', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'stock', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'pending', 'suffix': 'ing', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'pend', 'pos': 'VBG', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'completion', 'suffix': 'ion', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'complet', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'reuters', 'suffix': 's', 'annotations': ['<purchabr>', '</purchabr>'], 'erc': [], 'chunks': ['NP_i'], 'stem': 'reuter', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'review', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'review', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'company', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'compani', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'sharp', 'suffix': '', 'annotations': ['<acqabr>', '</acqabr>'], 'erc': [], 'chunks': [], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': 'operates', 'suffix': 'ates', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'oper', 'pos': 'VBZ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '38', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '38', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': 'offices', 'suffix': 'es', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'offic', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': '20', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '20', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': 'countries', 'suffix': 'es', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'countri', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'CAPITALIZED'], 'gaz': ['stopword']}
+{'token': '1986', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '1986', 'pos': '', 'types': ['NUM', '4_DIGIT_NUM'], 'gaz': []}
+{'token': 'it', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'it', 'pos': 'PRP', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'reported', 'suffix': 'ed', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'report', 'pos': 'VBD', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'revenue', 'suffix': 'e', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'revenu', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': '55', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '55', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': 'mln', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'mln', 'pos': 'VBG', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'canadian', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'canadian', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'dlrs', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'dlr', 'pos': 'NNS', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'with', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'with', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'pretax', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'pretax', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'loss', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'loss', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': '1', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '1', 'pos': '', 'types': ['NUM', '1_DIGIT_NUM', 'S_NUM', 'S_CHAR'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': '6', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '6', 'pos': '', 'types': ['NUM', '1_DIGIT_NUM', 'S_NUM', 'S_CHAR'], 'gaz': []}
+{'token': 'mln', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'mln', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'compared', 'suffix': 'ed', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'compar', 'pos': 'VBN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'with', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'with', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': '1', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '1', 'pos': '', 'types': ['NUM', '1_DIGIT_NUM', 'S_NUM', 'S_CHAR'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': '9', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '9', 'pos': '', 'types': ['NUM', '1_DIGIT_NUM', 'S_NUM', 'S_CHAR'], 'gaz': []}
+{'token': 'mln', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'mln', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'profit', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'profit', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': '1985', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '1985', 'pos': '', 'types': ['NUM', '4_DIGIT_NUM'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'however', 'suffix': 'er', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'howev', 'pos': 'RB', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': ['stopword']}
+{'token': ',', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': ',', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'sharp', 'suffix': '', 'annotations': ['<acqabr>', '</acqabr>'], 'erc': [], 'chunks': [], 'stem': 'sharp', 'pos': 'NNP', 'types': ['WORD', 'CAPITALIZED'], 'gaz': []}
+{'token': 'said', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'said', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'that', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'that', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'internal', 'suffix': 'al', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'intern', 'pos': 'JJ', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'accounts', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'account', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'showed', 'suffix': 'ed', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'show', 'pos': 'VBD', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'company', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'compani', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'was', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'wa', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'profit', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'profit', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'in', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'in', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'first', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'first', 'pos': 'JJ', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'two', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'two', 'pos': 'CD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['number', 'stopword']}
+{'token': 'months', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'month', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'of', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'of', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': '1987', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '1987', 'pos': '', 'types': ['NUM', '4_DIGIT_NUM'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'end-1986', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'end-1986', 'pos': '', 'types': ['CAPITALIZED'], 'gaz': []}
+{'token': 'net', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'net', 'pos': 'JJ', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'assets', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'asset', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'totalled', 'suffix': 'led', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'total', 'pos': 'VBD', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '11', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '11', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': '85', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '85', 'pos': '', 'types': ['NUM', '2_DIGIT_NUM', 'S_NUM'], 'gaz': []}
+{'token': 'mln', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'mln', 'pos': 'NN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'dlrs', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'dlr', 'pos': 'NNS', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'a', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'a', 'pos': 'DT', 'types': ['WORD', 'ALL_UPPER', 'S_CHAR'], 'gaz': ['stopword']}
+{'token': 'reuters', 'suffix': 's', 'annotations': ['<purchabr>', '</purchabr>'], 'erc': [], 'chunks': ['NP_i'], 'stem': 'reuter', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'CAPITALIZED'], 'gaz': []}
+{'token': 'statement', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'statement', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'said', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'said', 'pos': 'VBD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'acquisition', 'suffix': 'ion', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'acquisit', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'would', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_s'], 'stem': 'would', 'pos': 'MD', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'fit', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['VP_e'], 'stem': 'fit', 'pos': 'VB', 'types': ['WORD', 'ALL_LOWER'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'perfectly', 'suffix': 'y', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'perfectli', 'pos': 'RB', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'into', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'into', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'its', 'suffix': 's', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'it', 'pos': 'PRP$', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'package', 'suffix': 'e', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'packag', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'for', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'for', 'pos': 'IN', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'the', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_s'], 'stem': 'the', 'pos': 'DT', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'banking', 'suffix': 'ing', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'bank', 'pos': 'NN', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'and', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': ['NP_i'], 'stem': 'and', 'pos': 'CC', 'types': ['WORD', 'ALL_LOWER'], 'gaz': ['stopword']}
+{'token': 'securities', 'suffix': 'ities', 'annotations': [], 'erc': [], 'chunks': ['NP_e'], 'stem': 'secur', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'industries', 'suffix': 'es', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'industri', 'pos': 'NNS', 'types': ['WORD', 'LONG', 'ALL_LOWER'], 'gaz': []}
+{'token': '.', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': '.', 'pos': '', 'types': ['PUNC', 'S_CHAR'], 'gaz': []}
+{'token': 'xnlx', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'xnlx', 'pos': '', 'types': ['SPECIAL'], 'gaz': []}
+{'token': 'reuter', 'suffix': '', 'annotations': [], 'erc': [], 'chunks': [], 'stem': 'reuter', 'pos': 'NNP', 'types': ['WORD', 'LONG', 'ALL_UPPER'], 'gaz': ['person_last']}

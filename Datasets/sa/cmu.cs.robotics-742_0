@@ -1,0 +1,62 @@
+<0.15.2.93.14.44.16.maa+@ISL1.RI.CMU.EDU (Michelle Agie).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>KLAUS FISCHER</speaker>
+          German Research Institute for AI, Saarbruecken
+Topic:    SOLVING SCHEDULING PROBLEMS WITH THE HELP OF MULTI-AGENT SYSTEMS
+Dates:    19-Feb-93
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+Host:     For appointments with the speaker, please contact
+          Siegfried Bocionek (bocionek+@a.gp.cs.cmu.edu, x5299)
+PostedBy: maa+ on 15-Feb-93 at 14:44 from ISL1.RI.CMU.EDU (Michelle Agie)
+Abstract: 
+
+                       RI SEMINAR
+
+ WHEN:   Friday, Feb. 19, 1993; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+        Refreshments will be served by 3:15 pm
+
+ WHERE:  <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER: <speaker>KLAUS FISCHER</speaker>
+          German Research Institute for AI, Saarbruecken
+
+ TITLE: SOLVING SCHEDULING PROBLEMS WITH THE HELP OF MULTI-AGENT SYSTEMS
+
+<paragraph><sentence>The talk presents work which was done in Research Project 331
+Information Processing in Autonomous Mobile Robot Systems at
+the Technische Universitaet in Munich and in Research Project
+AKA-MOD on Modeling Cooperative Agents at the Deutsches Forschungszentrum</paragraph></sentence>
+
+<paragraph><sentence>In the talk the multi-agent system MAGSY is presented firstly</sentence>.
+<sentence>The kernel of an agent in MAGSY is a forward-chaining rule
+interpreter</sentence>. <sentence>Therefore, each agent has the problem solving
+capacity of an expert system</sentence>. <sentence>Each agent in MAGSY is a self-contained
+entity with a unique identification</sentence>. <sentence>If an agent knows the identification
+of another agent, it is able to send this agent messages</sentence>. <sentence>In doing so
+the agents perform services and call on services of other agents</sentence>.
+<sentence>Agents are able to create new agents dynamically</sentence>. <sentence>If an agent
+creates a new agent, it automatically knows the identification of
+this new agent</sentence>. <sentence>The knowledge of the agents is structured in an
+object-oriented knowledge representation scheme</sentence>. <sentence>There is a global
+knowledge base which contains the knowledge that may be accessed
+by all of the agents</sentence>. <sentence>Agents may store their identification in this
+global knowledge base and thus become known to all agents in the system</sentence>.</paragraph>
+
+<paragraph><sentence>In the second part of the talk two applications which have been
+implemented using the MAGSY system are presented</sentence>. <sentence>The first
+example here is the design of a planning and controlling hierarchy
+for a flexible manufacturing system with the help of MAGSY</sentence>. <sentence>The second
+example is the design of a multi-agent system for modeling the transportation
+domain</sentence>. <sentence>Here a set of shipping companies each of which controls a set
+of trucks has to execute client orders cooperatively</sentence>.
+<sentence>In both examples a scheduling problem has to be solved</sentence>. <sentence>In the first case
+a set of manufacturing orders has to be distributed to a set of
+machine tools and in the second case a set of transportation orders
+has to be distributed to a set of trucks</sentence>. <sentence>The talk will explain
+the design of the multi-agent solutions for these two applications
+and how the scheduling problem was solved in each case</sentence>.</paragraph>
+
+ Host: <sentence>For appointments with the speaker, please contact
+       Siegfried Bocionek (bocionek+@a.gp.cs.cmu.edu, x5299</sentence>)
+

@@ -1,0 +1,43 @@
+<0.6.12.94.16.19.21.plp+@HOSTESS.GRAPHICS.CS.CMU.EDU (Phyllis Pomerantz).0>
+Type:     Special CS Seminar
+Who:      <speaker>Jerome Feldman</speaker>, ICSI and UC Berkeley
+Topic:    pSather 1.0 - A Simpler Second System
+Dates:    7-Dec-94
+Time:     <stime>1:00 PM</stime>
+Place:    <location>4615A Wean Hall</location>
+Duration: 1 1/2 hours
+Host:     Jon A Webb 
+PostedBy: plp+ on 6-Dec-94 at 16:19 from HOSTESS.GRAPHICS.CS.CMU.EDU (Phyllis Pomerantz)
+Abstract: 
+
+ Type:     Special CS Seminar
+ Who:      <speaker>Jerome Feldman</speaker>, ICSI and UC Berkeley
+ Topic:    pSather 1.0 - A Simpler Second System
+ Dates:    7-Dec-94
+ Time:     <stime>1 p.m</stime>.
+ Place:    <location>4615A Wean Hall</location>
+ Duration: 1 1/2 hours
+ Host:     Jon A Webb 
+
+               pSather 1.0 - A Simpler Second System
+
+                        <speaker>Jerome Feldman</speaker>
+         International Computer Science Institute and UC Berkeley
+
+<paragraph><sentence>pSather is a set of parallel and distributed extensions to the
+object-oriented serial language Sather</sentence>. <sentence>After some years of internal
+experience with implementations and applications, the pSather 1.0 system is
+being developed for portability and general distribution</sentence>.  <sentence>pSather addresses
+NUMA architectures such as networks of workstations, but provides a relaxed
+consistency shared-memory model to the programmer</sentence>. <sentence>A goal of the language is
+to suport the construction of efficient reusable classes in which the
+parallelism is implicit to the user</sentence>.  <sentence>Explicit language support is provided
+for objects spread over nodes at the same local address and for parallel and
+distributed control regimes</sentence>.  <sentence>A distinguished class GATE generalizes
+previous low-level synchronization mechanisms such as locks, futures and
+conditions</sentence>.  <sentence>The object-orientation of pSather allows users to define other
+synchronization classes which are easy to use, safe, fair, and difficult to
+deadlock</sentence>.  <sentence>Object-orientation also facilitates the construction of efficient
+scalable data structures by allowing reuse of serial code distributed over
+the system without an implicit synchronization penalty</sentence>.</paragraph>
+

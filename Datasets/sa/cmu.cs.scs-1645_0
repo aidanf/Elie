@@ -1,0 +1,45 @@
+<0.8.3.93.16.15.15.trg+@N3.SP.CS.CMU.EDU (Thomas Gross).0>
+Type:     cmu.cs.scs
+Topic:    PSC/CS Seminar 3/12 <stime>4:00</stime> <location>WeH 5202</location> S. Frank of KSR Inc.
+Dates:    12-Mar-93
+Time:     <stime>4:00</stime>
+PostedBy: trg+ on 8-Mar-93 at 16:15 from N3.SP.CS.CMU.EDU (Thomas Gross)
+Abstract: 
+
+
+   KSR1: High Performance and Ease of Programming,
+          No Longer an Oxymoron
+
+		 <speaker>Steve Frank</speaker>
+          Kendall Square Research
+
+   Friday, March 12, 1993, <stime>4:00 p.m</stime>., <location>WeH 5205</location>
+				      ^^^^^^^^
+					Note different room this time only
+
+<paragraph><sentence>Historically, shared memory has been the main line programming model from
+an applications and computer science perspective for two reasons: shared
+memory is a flexible and high performance means of communicating between
+processors, tasks or threads and; shared memory provides high programming
+efficiency through use of conventional memory management methods</sentence>.</paragraph>
+
+<paragraph><sentence>The KSRl bridges the gap between the historical shared memory model and
+MPPs by delivering the shared memory programming model and all of its
+benefits, in a scalable, highly parallel architecture</sentence>.  <sentence>The KSRl runs
+a broad range of mainstream applications, ranging from numerically
+intensive computation, to on-line transaction processing (OLTP) and
+database management and inquiry</sentence>.  <sentence>The KSRl's shared memory programming
+model is made possible by a new architectural technique called ALLCACHE</sentence>.</paragraph>
+
+<paragraph><sentence>This talk will start by describing ALLCACHE, a logical extension of virtual
+memory and cache memory</sentence>.  <sentence>The shared memory programming model delivered by
+ALLCACHE facilitates porting and high performance for customer and third
+party applications</sentence>.  <sentence>Within this context, the KSRl architecture and
+applications environment consisting of a conventional UNIX based OS
+(symmetrically executing across all processors) and programming environment
+(including conventional languages) will be described</sentence>.  <sentence>The talk will conclude
+with a discussion of experiences porting customer specific and third party
+applications</sentence>.</paragraph>
+
+----
+<paragraph><sentence>If you are interested in talking to <speaker>Steve Frank</speaker>, please send mail to bag@cs</sentence>.</paragraph>

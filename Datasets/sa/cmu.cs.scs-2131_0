@@ -1,0 +1,46 @@
+<0.7.9.93.17.52.25.garth+@NIAGARA.NECTAR.CS.CMU.EDU (Garth Gibson).0>
+Type:     cmu.cs.scs
+Topic:    Short talk on Data Breakpoints
+Dates:    8-Sep-93
+Time:     <stime>11:50</stime>
+PostedBy: garth+ on 7-Sep-93 at 17:52 from NIAGARA.NECTAR.CS.CMU.EDU (Garth Gibson)
+Abstract: 
+
+<paragraph><sentence>At the end of tomorrow morning's SW engineering IC session
+we will have one additional speaker, <speaker>Steve Lucco</speaker>, who is a
+recent faculty hire due to arrive full time next spring</sentence>.
+<sentence>Steve will be presenting a brief sketch of the following
+interesting work that was not covered in his interview talk
+last spring</sentence>.</paragraph>
+
+<paragraph><sentence>He speaks promptly at <stime>11:50</stime> until <etime>12:00</etime> in <location>Wean 5409</sentence></location>.</paragraph>
+---------------
+
+Practical Data breakpoints: Design and Implementation
+
+<paragraph><sentence>A data breakpoint associates debugging actions with
+programmer-specified conditions on the memory state of an executing
+program</sentence>.  <sentence>Data breakpoints provide a means for discovering program
+bugs that are tedious or impossible to isolate using control
+breakpoints alone</sentence>.  <sentence>In practice, programmers rarely use data
+breakpoints, because they are either unimplemented or prohibitively
+slow in available debugging software</sentence>.  <sentence>In this talk, I'll present the
+design and implementation of a practical data breakpoint facility</sentence>.</paragraph>
+
+<paragraph><sentence>A data breakpoint facility must monitor all memory updates performed
+by the program being debugged</sentence>.  <sentence>We implemented and evaluated two
+complementary techniques for reducing the overhead of monitoring
+memory updates</sentence>.  <sentence>First, we checked write instructions by inserting
+checking code directly into the program being debugged</sentence>.  <sentence>The checks
+use a segmented bitmap data structure that minimizes address lookup
+complexity</sentence>.  <sentence>Second, we developed data flow algorithms that eliminate
+checks on some classes of write instructions</sentence>.</paragraph>
+
+<paragraph><sentence>We evaluated these techniques on a Sparc-2 using the SPEC
+benchmarks</sentence>.  <sentence>Checking each write instruction using a segmented bitmap
+achieved an average overhead of 42%</sentence>.  <sentence>This overhead is 
+independent of the number of breakpoints in use</sentence>.  <sentence>Data flow analysis
+eliminated an average of 79% of the dynamic write checks</sentence>.  <sentence>For
+scientific programs such the NAS kernels, analysis reduced write
+checks by a factor of ten or more</sentence>.  <sentence>On the Sparc-2 these optimizations
+reduced the average overhead to 27%</sentence>.</paragraph>

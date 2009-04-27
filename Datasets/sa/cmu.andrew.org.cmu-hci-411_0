@@ -1,0 +1,46 @@
+<0.29.11.93.15.37.25.tpn+@andrew.cmu.edu.0>
+Type:     cmu.andrew.org.cmu-hci
+Topic:    HCI Seminar - Wed. Dec. 1 '93 Tom Neuendorffer ITC/CS/CMU
+Dates:    1-Dec-93
+Time:     <stime>3:30</stime> - <etime>5:00 PM</etime>
+PostedBy: Tom Neuendorffer on 29-Nov-93 at 15:37 from andrew.cmu.edu
+Abstract: 
+
+                               HCI Seminar
+
+                       Wednesday, December 1, 1993
+                               <stime>3:30</stime>-<etime>5:00pm</etime>
+                             <location>Wean Hall 5409</location>
+               Extending an Embedded Object Architecture 
+                      to Support Collaborative Work
+
+                             <speaker>Tom Neuendorffer</speaker>
+                       Carnegie Mellon University
+                      Information Technology Center
+                       School of Computer Science
+
+<paragraph><sentence>For several years, the notion of User Interfaces that support embedded
+objects has been gaining popularity, culminating in the recent OLE work
+from Microsoft and the OpenDoc architecture from CIL</sentence>. <sentence>These are systems
+where active objects (text , spreadsheets, pictures, etc. ) are not
+simply isolated applications, but are components that can include one
+another, allowing both the users and application creators to develop
+multi-media documents that can present information in a variety of ways</sentence>.
+<sentence>This talk will discuss some attempts to extend an embedded object system
+to support collaborative editing, focusing on the system features that
+lend themselves to producing groupware, and those that make groupware
+difficult</sentence>. <sentence>The goals for this system include not only interactive
+document creation, but also interactive application creation and the
+ability to give remote software demonstrations</sentence>. <sentence>Included in this talk
+will be a discussion of early work using a single process model (as in
+the Argo system), and more recent work which supports multiple processes
+that share data through a  back-end which is both UI and system
+independent</sentence>. <sentence>A file-based interface to this back-end has been
+implemented, and an interface based on the HyperDesk Distributed Object
+Management System is currently in the works at Mitre, who has been
+supporting this recent work</sentence>.</paragraph>
+
+<paragraph><sentence>If time is available at the end of the talk, those who are interested
+may stick around for a brief postmortem of the ITC,  including opinions
+on where it succeeded,  where it failed, and the lessons learned as they
+might apply to other projects within SCS</sentence>.</paragraph>

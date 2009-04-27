@@ -1,0 +1,57 @@
+<1.10.1.92.09.00.27.lydia+@PROOF.ERGO.CS.CMU.EDU (Lydia Defilippo).0>
+Type:     cmu.cs.scs
+Who:      <speaker>Steven Skiena</speaker>
+          Department of Computer Science
+          State University of New York, Stony Brook
+Topic:    Algorithms for Square Roots of Graphs
+Dates:    14-Jan-92
+Time:     <stime>1:30 PM</stime>
+Place:    <location>Wean Hall 4634</location>
+Host:     Dana Scott
+PostedBy: lydia+ on 10-Jan-92 at 09:00 from PROOF.ERGO.CS.CMU.EDU (Lydia Defilippo)
+Abstract: 
+
+
+<paragraph><sentence>Please note that <speaker>Steven Skiena</speaker> will now speak
+at <stime>1:30</stime> instead of 3:30 due to a conflict in seminars</sentence>.</paragraph>
+
+ Speaker:   <speaker>Steven Skiena</speaker>
+            Department of Computer Science
+            State University of New York, Stony Brook
+
+ Date:	   Tuesday, January 14
+ Time:      <stime>1:30 pm</stime>
+ Place:     <location>Wean Hall 4634</location>
+
+ Topic:     Algorithms for Square Roots of Graphs
+
+<paragraph><sentence>The {\em kth power} of a graph  G = (V, E), written G^k,
+is defined to be the graph having V as its vertex set with
+vertices u, v adjacent in G^k if and only if
+there exists a path of length at most k between them</sentence>.
+<sentence>Similarly, graph H has a {\em kth root} G if G^k = H</sentence>.
+<sentence>Powers of graphs have several interesting properties</sentence>.
+<sentence>For example, the square of any biconnected graph and the
+cube of any connected graph is hamiltonian</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk, we present algorithms to find a square
+root G of a graph G^2 for the following special classes of graphs</sentence>:</paragraph>
+
+	<sentence>Find G given G^2, where G is a tree, in O(m) time</sentence>.
+
+	<sentence>Find G given G^2, where G^2 is planar, in O(n) time</sentence>.
+
+	<sentence>Find G given G^2, where G is a subdivided graph, in O(m n) time</sentence>.
+
+<paragraph><sentence>Finding square roots of subdivided graphs is equivalent to inverting
+total graphs</sentence>.
+<sentence>In addition, we present several results on the complexity
+of finding maximum cliques and hamiltonian cycles in powers of graphs</sentence>.</paragraph>
+
+<paragraph><sentence>This is joint work with Yaw-Ling Lin</sentence>.</paragraph>
+
+ Host: Dana Scott
+
+<paragraph><sentence>Appointments can be made through Lydia DeFilippo, x3063, lydia@cs.cmu.edu</sentence>.</paragraph>
+
+<paragraph><sentence><speaker>Steve Skiena</speaker> will be at CMU Monday, January 13, and Tuesday, February 14</sentence>.</paragraph>

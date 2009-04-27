@@ -1,0 +1,49 @@
+<0.18.2.94.16.54.50.plp+@PHYLLIS.ADM.CS.CMU.EDU (Phyllis Pomerantz).0>
+Type:     AI Seminar
+Who:      <speaker>Eugene Charniak</speaker>
+Topic:    Improved Statistical Language Models from Syntactic Parsing
+Dates:    22-Feb-94
+Time:     <stime>3:30 PM</stime>
+Place:    <location>5409 Wean Hall</location>
+Host:     Danny Sleator
+PostedBy: plp+ on 18-Feb-94 at 16:54 from PHYLLIS.ADM.CS.CMU.EDU (Phyllis Pomerantz)
+Abstract: 
+
+
+ Type:     AI Seminar
+ Who:      <speaker>Eugene Charniak</speaker>
+ Topic:    Improved Statistical Language Models from Syntactic Parsing
+ Dates:    22-Feb-94
+ Time:     <stime>3:30 p.m</stime>.
+ Place:    <location>5409 Wean Hall</location>
+ Host:     Danny Sleator
+
+Improved Statistical Language Models from Syntactic Parsing
+<speaker>Eugene Charniak</speaker>
+Brown University
+
+<paragraph><sentence>A statistical language model assigns a probability to every sequence of
+words such that common sequences in the language ("I have a headache") have
+high probability and uncommon ones ("Headache a have I") have low</sentence>.  <sentence>Such
+models are of most obvious use in speech recognition, but they have many
+other uses as well</sentence>.  <sentence>The current ``gold standard'' in statistical language
+models is the trigram model, which estimates the probability of each
+successive word using statistics gathered on the probability of the word
+given the last two words</sentence>.  <sentence>This is very dumb, but remarkably successful</sentence>.  <sentence>We
+hope to create better models using more standard NLU techniques</sentence>.  <sentence>We hope to
+model the language by first parsing the sentence, then collecting statistics
+based upon the parse (not just the last few words)</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk we concentrate on the first of these steps and look in
+particular at probabilistic context-free grammar learning</sentence>.  <sentence>Our scheme
+starts with a restricted form of context-free grammar such that only a
+finite number of rules apply to any given sentence</sentence>.  <sentence>Starting with these
+rules, we then remove excess rules using the ``inside-outside'' algorithm</sentence>.
+<sentence>We concentrate on two interesting modifications of this scheme</sentence>.  <sentence>In the
+first we create several different grammars for the language using different
+subsets of our training data and then merge them</sentence>.  <sentence>Interestingly, this
+significantly improves the quality of the learned grammar</sentence>.  <sentence>In the second we
+learn a ``pseudo-context-sensitive'' grammar by collecting extra statistics
+on rule application (``pseudo'' because the resulting formalism could be put
+back into context-free form by multiplying out the non-terminals of the
+language)</sentence>.  <sentence>This too leads to significant improvements</sentence>.</paragraph>

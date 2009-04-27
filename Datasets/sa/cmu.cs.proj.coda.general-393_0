@@ -1,0 +1,35 @@
+<0.31.5.94.09.21.49.mp3r+@MARGE.ADM.CS.CMU.EDU (Margaret Profeta).0>
+Type:     cmu.cs.proj.coda.general
+Topic:    INFORMAL TALK
+Dates:    8-Jun-94
+Time:     <stime>1:30 PM</stime> - <etime>3:00 PM</etime>
+PostedBy: mp3r+ on 31-May-94 at 09:21 from MARGE.ADM.CS.CMU.EDU (Margaret Profeta)
+Abstract: 
+
+         JETFILE: A DISTRIBUTED FILE SYSTEM FOR BIG MEMORY DESKTOPS
+                       ATTACHED TO HIGH SPEED NETWORKS
+
+                               <speaker>STEPHEN PINK</speaker>
+
+                      SWEDISH INSTITUTE OF TECHNOLOGY
+
+                          WEDNESDAY, JUNE 8, 1994
+
+                 <location>WEAN HALL 7220</location>      <stime>1:30 p.m</stime>. - <etime>3:00 p.m.</etime>
+<paragraph>     <sentence>This  talk  presents  some  ideas  on  the  design  of JetFile, a
+     distributed file system for computers that have big memories  and
+     are  attached  to  high  speed networks</sentence>.  <sentence>JetFile is designed for
+     workstations that have hundreds of megabytes of main  memory  and
+     communicate  with  their  servers  on networks where user-to-user
+     bandwidth is available at  speeds  approaching  one  gigabit  per
+     second</sentence>.  <sentence>JetFile caches whole directories on reference to prevent
+     costly round trip times, while it shares main  memory  with  user
+     programs.   JetFile uses multicast to support server replication,
+     and  uses  multicast  to  provide  the   basis   of   consistency
+     guarantees,  as  servers  update  groups of clients with new file
+     versions</sentence>.  <sentence>JetFile is being designed for use in the Swedish  High
+     Performance  Computer  Network,  a fiber-optic network that spans
+     the length of the country</sentence>.</paragraph>
+
+<paragraph>      Note:  <sentence>This informal talk describes a piece of work in its  early
+      stages</sentence>.  <sentence>Feedback will be appreciated</sentence>.</paragraph>

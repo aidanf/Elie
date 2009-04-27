@@ -1,0 +1,220 @@
+#LyX 1.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 221
+\textclass article
+\begin_preamble
+\usepackage{times}
+\end_preamble
+\language english
+\inputencoding auto
+\fontscheme default
+\graphics default
+\paperfontsize default
+\spacing single 
+\papersize Default
+\paperpackage a4
+\use_geometry 0
+\use_amsmath 0
+\use_natbib 0
+\use_numerical_citations 0
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\quotes_times 2
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+
+\layout Title
+
+ELIE
+\layout Title
+
+Aidan Finn
+\layout Standard
+
+ELIE is a tool for adaptive information extraction.
+ It also provides a number of other text processing tools e.g.
+ POS tagging, chunking, gazeteer, stemming.
+ It is written in Python.
+\layout Section
+
+Installation
+\layout Standard
+
+Requirements:
+\layout Itemize
+
+Python 2.1 or higher
+\layout Itemize
+
+Java 2 or higher
+\layout Itemize
+
+Weka (included in distribution)
+\layout Itemize
+
+Brilltag (if you intend to use datasets other than those provided)
+\layout Standard
+
+Unzip the Elie archive.
+ Edit the 
+\emph on 
+basedir, BRILLTAGPATH 
+\emph default 
+and
+\emph on 
+ java 
+\emph default 
+in the file 
+\emph on 
+config.py 
+\emph default 
+to describe your own system.
+ Add 
+\emph on 
+$ELIEHOME/lib/weka.jar
+\emph default 
+ to your java classpath.
+\layout Section
+
+Usage
+\layout Standard
+
+Elie contains the following executable files:
+\layout Itemize
+
+evaluation.py The main way to run ELIE
+\layout Itemize
+
+scorer.py Calculate performance measures from ELIE logs
+\layout Itemize
+
+extractor.py Performs basic learning and extraction
+\layout Itemize
+
+preprocessCorpus.py preprocesses a corpus of text files
+\layout Itemize
+
+tagging.py does POS, chunking etc on a text file
+\layout Standard
+
+Execute these files without any arguments to get usage information.
+\layout Subsection
+
+Input format
+\layout Standard
+
+Documents should be stored in text files with one document per text-file.
+ Fields should be marked using the syntax 
+\emph on 
+<field> ...
+ </field>
+\emph default 
+.
+ 
+\layout Subsection
+
+Preprocessing
+\layout Standard
+
+This stage adds tokenisation, orthographic, POS, chunking and gazetteer
+ information to the input files and stores it using an ELIE internal format.
+ This stage only needs to be done once for each document collection! Running
+ '
+\emph on 
+preprocessCorpus.py datasetDirectory
+\emph default 
+' will create a new directory called 
+\emph on 
+datasetDirectory.preprocessed
+\emph default 
+ which contains all the files in ELIEs internal format.
+\layout Standard
+
+Note the input files shouldn't contain any unusual control characters and
+ for every <field> there must be a corresponding </field>.
+\layout Subsection
+
+Running
+\layout Standard
+
+The recommended way to run ELIE is using the file 
+\emph on 
+evaluation.py
+\emph default 
+.
+ It takes the following parameters.
+\layout LyX-Code
+
+-f field 
+\layout LyX-Code
+
+-t trainCorpusDirectory 
+\layout LyX-Code
+
+-D dataDirectory 
+\layout LyX-Code
+
+[-T testCorpusDirectory]
+\layout LyX-Code
+
+[-s splitfilebase]
+\layout LyX-Code
+
+[-mpnvh]
+\layout LyX-Code
+
+If -t and -T are are set, then we train on trainCorpusDirectory and test
+ on testCorpusDirectory.
+ Otherwise we do repeated random splits on trainCorpusDirectory        
+\layout LyX-Code
+
+\layout LyX-Code
+
+Options:
+\layout LyX-Code
+
+-m use cached models (NotYetImplemented)
+\layout LyX-Code
+
+-p set train proportion default=0.5
+\layout LyX-Code
+
+-n number of trials default=10
+\layout LyX-Code
+
+-v version info
+\layout LyX-Code
+
+-h help
+\layout Standard
+
+The corpora directories should contain preprocessed files only i.e.
+ those created by preprocessCorpus.py.
+ The dataDirectory is where ELIE will store all its intermediate and output
+ files.
+ The splitfilebase argument can used be for predefined splits.
+\layout Section
+
+Output
+\layout Standard
+
+The detail of ELIEs printed output is controled using the parameter 
+\emph on 
+config.verbosity
+\emph default 
+.
+ 
+\layout Standard
+
+ELIE produces several logfiles that can be used by the bwi-scorer or ELIEs
+ own scorer (scorer.py).
+ These are located in the specified dataDirectory.
+\layout Standard
+
+e.g.
+ scorer.py elie.speaker.*.elie.L1.log
+\the_end

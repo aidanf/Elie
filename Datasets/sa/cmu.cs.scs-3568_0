@@ -1,0 +1,43 @@
+<0.14.2.95.11.08.25.mp3r+@J.GP.CS.CMU.EDU (Margaret Profeta).0>
+Type:     cmu.cs.scs
+Topic:    POP SEMINAR
+Dates:    17-Feb-95
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+PostedBy: mp3r+ on 14-Feb-95 at 11:08 from J.GP.CS.CMU.EDU (Margaret Profeta)
+Abstract: 
+                      CONTEXT DEPENDENT OPTIMIZATIONS
+
+                              <speaker>Morten Welinder</speaker>
+                             DIKU, Copenhagen
+
+                         Friday, February 17, 1995
+
+                    <location>WeH 8220</location>      <stime>3:30 p.m</stime>. - <etime>5:00 p.m.</etime>
+<paragraph>     <sentence>One  price  paid  for  using  a  typed  language  for  writing an
+     interpreter is that it will typically have to encode  the  values
+     of  the  interpreted  program explicitly into one universal type,
+     Val</sentence>.</paragraph>
+
+<paragraph>     <sentence>Since Val will be visible from the type of the interpreter (e.g.,
+     Prg  x  Val  ->  Val  for a simple one) programs derived from the
+     interpreter by using, i.e., partial evaluation will  inherit  the
+     universal  type  and perform repeated projections and injections.
+     That is certainly not what we want</sentence>.</paragraph>
+
+<paragraph>     <sentence>However, a study of a typical derived program shows  that  it  is
+     not  possible  to improve much without further information</sentence>.  <sentence>This
+     is where the context of the program comes in</sentence>.  <sentence>A  "context"  here
+     is  a  description  of  the  input  --  in  the form of a grammer
+     defining a subset of all possible Val values  --  and  a  similar
+     description of the output</sentence>.</paragraph>
+
+<paragraph>     <sentence>In  words,  the  context makes certain promises about the form of
+     the input and the output</sentence>.  <sentence>In the case of residual programs  from
+     partial evaluation it is trivial to create good contexts</sentence>.</paragraph>
+
+<paragraph>     <sentence>From  the  context it is possible to identify operations that are
+     not needed</sentence>.  <sentence>This can result in drastic  improvements,  at  least
+     with pen-and-paper examples</sentence>.</paragraph>
+
+<paragraph>      Note:   <sentence>We welcome Morten to our department</sentence>.  <sentence>He will be visiting
+      with Peter Lee for six months</sentence>.</paragraph>

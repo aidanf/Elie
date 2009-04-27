@@ -1,0 +1,52 @@
+<0.20.2.95.14.10.21.baraff@TURNOVER.GRAPHICS.CS.CMU.EDU.0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Jeff Schneider</speaker>
+          Research Associate
+          Robotics Institute
+Topic:    Robot Skill Learning Through Intelligent Experimentation
+Dates:    24-Feb-95
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+PostedBy: baraff on 20-Feb-95 at 14:10 from TURNOVER.GRAPHICS.CS.CMU.EDU
+Abstract: 
+
+                       RI SEMINAR
+
+ WHEN:     Friday, February 24, 1995; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+          Refreshments will be served starting at 3:15 pm.
+
+ WHERE:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER:  <speaker>Jeff Schneider</speaker>
+ 	  Research Associate
+           Robotics Institute
+
+ TITLE:	  Robot Skill Learning Through Intelligent Experimentation
+
+<paragraph><sentence>In robot skill learning the robot must obtain data for training by
+executing expensive practice trials and recording their results</sentence>.
+<sentence>Often, the high cost of acquiring training data is the limiting factor
+in the performance of skill learners</sentence>.  <sentence>Then it is important that the
+system make intelligent choices about what actions to attempt while
+practicing</sentence>.  <sentence>In this talk we present several algorithms for
+intelligent experimentation in skill learning</sentence>.</paragraph>
+
+<paragraph><sentence>In open loop skills the execution goal is presented and the controller
+must then choose all the control signals for the duration of the task</sentence>.
+<sentence>Learning is a high-dimensional search problem where the system must
+associate a sequence of actions with each commandable goal</sentence>.  <sentence>We
+propose an algorithm that selects practice actions most likely to
+improve performance by making use of information gained on previous
+trials</sentence>.  <sentence>On the problem of learning to throw a ball using a robot with
+a flexible link, the algorithm takes only 100 trials to find a
+``whipping'' motion for long throws</sentence>.</paragraph>
+
+<paragraph><sentence>A common method of guiding experimentation in closed loop learners is
+gradient descent on a cost function</sentence>.  <sentence>The main drawback of this method
+is convergence to non-optimal local minima</sentence>.  <sentence>We introduce cooperation
+as a means of escaping these local minima by shifting control between
+several gradient descent methods</sentence>.  <sentence>Finally, we note that in an
+integrated system with scarce sensor resources it is preferable to
+perform tasks with minimal sensing and look at an algorithm to use
+closed loop learning as an efficient search technique for eventual
+open loop execution</sentence>.</paragraph>

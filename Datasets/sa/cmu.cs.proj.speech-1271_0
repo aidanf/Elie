@@ -1,0 +1,62 @@
+<0.09.6.92.14.33.18.alex@CS.CMU.EDU (Alexander Hauptmann).0>
+Type:     cmu.cs.proj.speech
+Topic:    NEW TIME: Speech Synthesis Talk 6/12
+Dates:    12-Jun-92
+Time:     <stime>10:30 AM</stime>
+Place:    <location>WEH 5409</location>
+PostedBy: alex on 09-Jun-92 at 14:33 from CS.CMU.EDU (Alexander Hauptmann)
+Abstract: 
+Soon appearing on your local telephone terminal:
+Bellcore's ORATOR speech synthesizer
+
+		<speaker>Murray Spiegel</speaker>
+		Member of Technical Staff
+		Speech Analysis and Research Group
+		Bellcore
+
+ 	PLACE: <location>WEH 5409</location>
+**** NOTE NEW TIME: <stime>10:30 AM</stime> ***************************************
+ 	DATE: Friday, June 12, 1992
+<paragraph>(<sentence>If you would like to meet with Murray on Friday afternoon,
+send mail to alex@cs.cmu.edu and I will schedule you</sentence>.)</paragraph>
+<paragraph><sentence>This talk will describe Bellcore's demisyllable-based ORATOR speech
+synthesizer</sentence>.  <sentence>I'll discuss the design goals for the synthesizer and how
+we are approaching them, likely applications for our synthesizer, and
+future plans</sentence>.  <sentence>The ORATOR system has been designed for telecommunication 
+applications</sentence>.  <sentence>To address these needs, the ORATOR system exhibits
+particularly high name pronunciation and and high intelligibility</sentence>.  
+<sentence>We have evaluated both factors of the system;  for each task, that is,
+evaluating name pronunciation accuracy and synthesis intelligibility,
+we have made contributions of evaluation methodology and test corpora</sentence>.</paragraph>
+
+<paragraph><sentence>The synthesizer is based on an inventory of demisyllables
+(half-syllables), which incorporate more details of allophonic
+variation and coarticulation than do other speech synthesizers, most of
+which are based on phoneme models</sentence>.  <sentence>Because of this fact, most of our
+phonetic rules are quite simple</sentence>.  <sentence>So, for example, in a syllable like
+"pint" /paynt/, facts about vowel nasalization, short nasal murmur, and
+short duration of the /a/ are automatically built into the
+demisyllables, and need not be handled by rules, as is necessary in
+synthesis systems that are based on smaller units</sentence>.  <sentence>The segmentally
+conditioned duration variation found in speech is intrinsically encoded
+into the demisyllables units</sentence>.  <sentence>For example, the differences in vowel
+duration that are associated with voicing of a syllable-final consonant
+are built-in to the units</sentence>.  <sentence>Thus, most duration rules are limited to
+those involving suprasegmental factors (for example, number of
+following syllables)</sentence>.  <sentence>The duration rules are based on the insight that
+most of the duration variation occurs in the so-called steady-state
+portions of the syllables</sentence>.</paragraph>
+
+<paragraph><sentence>The name pronunciation rules aim at generally Anglicized pronunciations
+(modeling the most common pronunciations of names in the US)</sentence>.  <sentence>The
+rules are based on several nationally representative databases of names
+of people, towns, and businesses</sentence>.  <sentence>Much of the accuracy derives from
+sophisticated context-sensitive morphological analysis as well as
+pronunciation rules for letter patterns in names</sentence>.  <sentence>A very small name
+dictionary of exceptions is used, rather than relying on an extensive
+dictionary of name pronunciation, providing the most efficient coverage
+for the universe of names</sentence>.  <sentence>The rules also cover many letter patterns
+prevalent in English words, supplemented by a small word dictionary,
+thus reducing the need to pre-determine which words in an application
+are names and which are English words</sentence>.  <sentence>A client/server implementation
+of the software produces fast synthesis on modest UNIX workstations</sentence>.</paragraph>

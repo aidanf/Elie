@@ -1,0 +1,71 @@
+<0.13.1.94.15.50.06.xu+@IUS4.IUS.CS.CMU.EDU (Yangsheng Xu).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Michael Erdmann</speaker>
+          Assistant Professor
+          The Robotics Institute and School of Computer Science
+          Carnegie Mellon University
+Topic:    Dealing with Uncertainty by Designing Action-Based Sensors
+Dates:    21-Jan-94
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+Host:     Yangsheng Xu (xu@cs.cmu.edu)
+PostedBy: xu+ on 13-Jan-94 at 15:50 from IUS4.IUS.CS.CMU.EDU (Yangsheng Xu)
+Abstract: 
+
+
+                       RI SEMINAR
+
+ WHEN:   Friday, Jan 21, 1994; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+        Refreshments will be served starting at 3:15 pm
+
+ WHERE:  <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER:<speaker>Michael Erdmann</speaker>
+ 	Assistant Professor
+ 	The Robotics Institute and School of Computer Science
+         Carnegie Mellon University
+
+ TITLE:  Dealing with Uncertainty by Designing Action-Based Sensors
+
+<paragraph><sentence>The goal of my research is to understand the relationship between sensing,
+action, and prediction</sentence>.  <sentence>I have explored various extreme points in this space</sentence>.
+<sentence>With Matt Mason I looked at sensorless strategies, for my thesis work I looked
+at randomized strategies, and currently I am investigating fast-action
+minimal-sensing strategies</sentence>.  <sentence>My goal is to understand precisely what sensing
+is required to accomplish a manipulation task quickly, what the tradeoffs are
+between sensing, action, and prediction, and how to design optimal sensors and
+error-tolerant strategies</sentence>.</paragraph>
+
+<paragraph><sentence>This work is motivated by several desires</sentence>.  <sentence>First, I would like to program
+robots more easily than is currently possible</sentence>.  <sentence>Second, I would like to
+understand the scope and limitations of autonomous systems, whether
+biological or artificial</sentence>.  <sentence>Third, I would like to reduce the complexity of
+design and planning by codifying the design parameters required to achieve a
+given level of automation</sentence>.  </paragraph>
+
+<paragraph><sentence>At a more detailed level, my current research investigates a method for
+automatically designing sensors from the specification of a robot's task, its
+repertoire of actions, and its uncertainty in control</sentence>.  <sentence>This method creates
+abstract sensors whose purpose it is to provide precisely the information
+required by the robot</sentence>.  <sentence>The approach is to generate an action-based plan for
+accomplishing the task, initially under the assumption of perfect sensing</sentence>.  <sentence>By
+examining the structure of this plan, one can then often reduce the actual
+sensing required from perfect sensing to some smaller more tractable amount of
+sensing</sentence>.  <sentence>In short, the plan specifies a sensor that delivers the information
+required for the plan to function correctly</sentence>.</paragraph>
+
+<paragraph><sentence>We have examined this approach in the context of several simple manipulation
+tasks</sentence>.  <sentence>These include, of course, peg-in-hole, but also some extensions such
+as the two-pin-two-hole, screw-plate-table, and balancing tasks</sentence>.  <sentence>In
+addition, we have run into some theoretical discoveries</sentence>.  <sentence>The main discovery
+is that any strategy for accomplishing a task must in the worst case
+establish the same information as would be provided by the abstract sensor
+discussed above</sentence>.  <sentence>This suggests that we view automated robot programming as a
+method for augmenting or perturbing the basic plan created with a perfect
+sensor and imperfect control</sentence>.  <sentence>The type of augmentation depends on the
+physical sensor available and the amount of prediction one is willing to
+compute</sentence>.  <sentence>Much of this work remains tantalizingly open</sentence>.</paragraph>
+
+ Host: 		Yangsheng Xu (xu@cs.cmu.edu)
+ Appointment: 	Lalit Katragadda (lalit@cs.cmu.edu)
+

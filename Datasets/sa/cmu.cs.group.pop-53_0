@@ -1,0 +1,86 @@
+<0.29.9.92.11.41.04.fp+@cs.cmu.edu (Frank Pfenning).0>
+Type:     cmu.cs.group.pop
+Topic:    POP Seminar MONDAY: <speaker>P. Bailey</speaker>
+Dates:    5-Oct-92
+Time:     <stime>3:30 PM</stime> - <etime>4:30 PM</etime>
+PostedBy: fp+ on 29-Sep-92 at 11:41 from cs.cmu.edu (Frank Pfenning)
+Abstract: 
+
+			  Special POP Seminar
+			Monday, October 5, 1992
+			     <stime>3:30pm</stime>-<etime>4:30pm</etime>
+				<location>WeH 5409</location>
+	  Implementing ML on Distributed Memory Multicomputers
+
+			      <speaker>Peter Bailey</speaker>
+		    Department of Computer Science
+		   The Australian National University
+
+<paragraph><sentence>The advent of distributed memory multicomputers, such as the Fujitsu
+AP1000, enables the implementation of parallel programming languages
+where every processing element is capable of supporting a runtime system
+large enough for languages such as Lisp and ML</sentence>.  <sentence>On the AP1000, the
+amount of DRAM available is 16Mb per cell, and similar machines like the
+CM5 provide comparable amounts of memory</sentence>. </paragraph>
+
+<paragraph><sentence>ML is a "mostly functional" language which requires significant runtime
+support for facilities such as garbage collection</sentence>.  (<sentence>The language
+provides polymorphic and higher-order functions, and programs are
+statically type checked at compile time</sentence>.  <sentence>ML also permits side-effects -
+namely, I/O operations and the assignment and updating of reference
+variables</sentence>.  <sentence>A formally defined and complete semantics for the language
+exists</sentence>.)</paragraph>
+
+<paragraph><sentence>Most existing concurrent implementations of ML use shared memory and a
+single runtime system, although multiple processors may be used</sentence>.  <sentence>The
+most well known of these concurrent implementations is Concurrent ML,
+which provides first-class synchronous events, and multiple threads of
+concurrency</sentence>.  <sentence>A requirement for implementations of CML is access to a
+global address space</sentence>. </paragraph>
+
+<paragraph><sentence>In a distributed memory multicomputer, the cost of non-local memory
+access can be orders of magnitude more expensive than local memory
+access</sentence>.  <sentence>Having a global address space only makes porting existing
+concurrent ML extensions easier; it does not make the implementation
+efficient</sentence>.  <sentence>Implementing ML on a distributed memory multicomputer thus
+requires a different approach in providing concurrency primitives</sentence>. </paragraph>
+
+<paragraph><sentence>The additions provided by paraML are founded around the notion of
+coarse-grain processes, which execute in their own runtime system</sentence>.  <sentence>The
+extensions include facilities for</sentence>:</paragraph>
+
+        - declaring process forms
+        - creating process instances
+        - obtaining the result computed by a process
+        - message passing of first-class ML objects between processes
+
+<paragraph><sentence>These extensions have been made without changing the syntax of Standard
+ML; they are provided as ML modules</sentence>.  (<sentence>The same decision was taken with
+CML</sentence>.) <sentence>Modifications are required only to the runtime system, and to
+parts of the pervasive environment associated with the New Jersey
+implementation of ML</sentence>. </paragraph>
+
+<paragraph><sentence>There are many difficulties in developing ML to run in a distributed
+memory multicomputer system, including</sentence>:
+
+1. lack of global address space (if one isn't supported on the machine);
+2. performance penalty for non-local data access;
+3. data coherency, multiprocessor garbage collection;
+4. dynamic process creation and object transmission across non-uniform
+   exectuable image code; 
+5.  compile-time type-checking of arguments to the message passing 
+    primitives; 
+6.  compilation for different machine environments (host and cells) and
+    with different runtime systems.</paragraph>
+
+<paragraph><sentence>This talk describes paraML, extensions of ML which enable the user to
+utilise the advantages of the distributed memory style of architecture
+and the features of ML</sentence>.  <sentence>The implementation is based on the SML/NJ and
+SML2C compilers</sentence>.  <sentence>Some of the problems in implementing paraML for
+distributed memory multicomputers are solved by using the SML2C
+compiler</sentence>.  <sentence>Other aspects of the project discussed include the design of
+primitives, implementation strategy, lessons learnt in the
+implementation, and future work</sentence>. </paragraph>
+
+<paragraph><sentence><speaker>Peter Bailey</speaker> will be here on Monday and Tuesday morning</sentence>.  <sentence>If you would
+like to meet with him, please send email to Marge Profeta, profeta@cs</sentence>.</paragraph>

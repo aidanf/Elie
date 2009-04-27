@@ -1,0 +1,38 @@
+<0.20.2.92.11.16.31.trg+@N2.SP.CS.CMU.EDU (Thomas Gross).0>
+Type:     cmu.cs.scs
+Topic:    PSC/CS Seminar: 2/28 4:00 @ SEI 
+Dates:    28-Feb-92
+Time:     <stime>4:00</stime>
+PostedBy: trg+ on 20-Feb-92 at 11:16 from N2.SP.CS.CMU.EDU (Thomas Gross)
+Abstract: 
+
+
+	Approaching MPP for Molecular Dynamics and Mechanics of Biomolecules
+
+		          <speaker>Charles Brooks</speaker>
+		Chemistry Department, Carnegie Mellon University
+
+		     Feb 28, 1992    <stime>4:00 p.m</stime>.
+			<location>SEI Auditorium</location>
+
+<paragraph><sentence>The anticipation of performing large-scale simulations to address crucial
+questions in the area of biomolecule structure and dynamics (for example
+protein folding, drug discovery, enzyme catalysis) is fueled by advances in
+the development of massively parallel hardware</sentence>.  <sentence>However, realization of
+this goal requires not only the hardware developments, but also a
+substantial investment in the development and implementation of scalable
+algorithms to carry out simulations of biomolecules</sentence>.  <sentence>In this seminar, I
+will discuss some of the "grand challenge" problems which motivate work on
+the software side, with a particular focus to problems being addressed in
+our research group</sentence>.  <sentence>I will then describe efforts underway in our laboratory
+to address the algorithmic/software questions for biomolecule dynamics</sentence>.
+<sentence>Emphasis will be laid upon the description of two strategies we have
+experimented with for molecular dynamics on parallel architecture machine</sentence>.
+<sentence>First, I will describe the implementation of a molecular dynamics kernel for
+studies of solutions of small molecules on the CM-2, Cray and CM-5</sentence>.  <sentence>Next, I
+will describe preliminary work on utilizing a tightly coupled heterogeneous
+computing environment (the Cray YMP and CM-2 connected via a HiPPI) to carry
+out calculations on solvated protein and peptide molecules</sentence>.  <sentence>I will
+summarize with a discussion of the future prospects for using MPP
+architectures with peak computational rates in the teraflop range for
+biomolecule dynamics</sentence>.</paragraph>

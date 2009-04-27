@@ -1,0 +1,34 @@
+<0.4.1.91.12.58.56.HT.Kung@IUS3.IUS.CS.CMU.EDU.0>
+Type:     cmu.cs.proj.nectar
+Topic:    Talk by <speaker>Holliman</speaker> on Jan 8th
+Dates:    15-Jan-91
+Time:     <stime>4:15 PM</stime>
+PostedBy: HT.Kung on 4-Jan-91 at 12:58 from IUS3.IUS.CS.CMU.EDU
+Abstract: 
+
+<paragraph><sentence><speaker>Nick Holliman</speaker> is visiting CMU for three months</sentence>.  <sentence>He will port a parallel
+solid modeller onto Nectar</sentence>.  <sentence>He will give a talk on Tuesday, Jan 15th at
+<stime>4:15pm</stime> in <location>8220</location></sentence>. </paragraph> 
+       VISUALISING SOLID MODELS : AN EXERCISE IN PARALLEL PROGRAMMING
+
+                             <speaker>Nick Holliman</speaker>
+        School of Computer Studies, The University of Leeds, England.
+
+<paragraph>  <sentence>Solid modelling technology originated in Mechanical Engineering and has now
+been in use for over ten years</sentence>. <sentence>The realistic visualisation of solid models is
+one of the requirements of a design support system enabling engineers to 
+construct, edit and analyse models prior to manufacture</sentence>. <sentence>Flexible modelling
+systems have also found uses in areas as diverse as molecular modelling,
+archaeological reconstruction and sculpture</sentence>. <sentence>All these applications could
+benefit from the potential increase in speed and problem size available from
+a parallel solid modeller</sentence>.</paragraph>
+
+<paragraph> <sentence>This talk describes the design and implementation of Mistral-3 an experimental
+parallel solid modeller for distributed memory multicomputers</sentence>. <sentence>Mistral-3 has
+been developed as an exercise in parallel programming where the goals were to
+build a portable, scalable system using a more structured approach to design 
+than previous solutions</sentence>. <sentence>The result moves away from the central control and
+replication of data in the task queue model by distributing task scheduling and
+storage management between all available processors</sentence>. <sentence>Results will be presented
+showing how Mistral-3 performs on up to 128 T800 transputers</sentence>. <sentence>The presentation
+will conclude by considering how Mistral-3 can be ported to Nectar</sentence>.</paragraph>

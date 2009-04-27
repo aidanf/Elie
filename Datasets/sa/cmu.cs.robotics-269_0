@@ -1,0 +1,48 @@
+<1.02.10.91.11.44.49.maa+@ISL1.RI.CMU.EDU (Michelle Agie).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Milind Tambe</speaker>
+Topic:    CIMDS SEMINAR
+Dates:    4-Oct-91
+Time:     <stime>12:00 PM</stime> - <etime>1:00 PM</etime>
+Place:    <location>3313 Doherty (Large Conf Room</location>)
+PostedBy: maa+ on 02-Oct-91 at 11:44 from ISL1.RI.CMU.EDU (Michelle Agie)
+Abstract: 
+
+
+ SPEAKER: <speaker>Milind Tambe</speaker>
+
+ DATE: Friday Oct 4, 1991
+
+ TIME: <stime>12:00pm</stime> - <etime>1:00pm</etime>
+
+ Place:  <location>3313 Doherty (Large Conf Room</location>)
+
+        ELIMINATING COMBINATORICS FROM THE MATCH IN RULE-BASED SYSTEMS
+
+                                 <speaker>Milind Tambe</speaker>
+
+                                   Abstract
+
+<paragraph><sentence>Eliminating combinatorics from the match in production systems  (or  rule-based
+systems)  is  important  for  various  reasons  like real-time performance, the
+utility issue in machine learning, parallel implementations and modeling  human
+cognition</sentence>.    <sentence>The goal of this work is to eliminate match combinatorics without
+sacrificing production system functionality</sentence>.</paragraph>
+
+<paragraph>  <sentence>Combinatorics arise in production match due to the ambiguity about which data
+items (or working memory elements) can actually match a production's condition</sentence>.
+<sentence>In a production with multiple conditions, a cascading effect of such  ambiguity
+may  lead  to  an  exponential  match effort</sentence>. <sentence>We have investigated a variety of
+approaches to eliminate match combinatorics, and have focused on the  following
+two that appear quite promising</sentence>:</paragraph>
+
+   - The  unique-attribute  approach:  <sentence>This approach restricts the working
+     memory representation and completely eliminates the ambiguity</sentence>.
+
+   - The tokenless-match approach: <sentence>This approach changes the match process
+     so  as to allow some local ambiguity, but avoids the cascading effect
+     that leads to combinatorics</sentence>.
+
+<paragraph>  <sentence>I  will  present  detailed  theoretical  and  experimental  analyses  of  the
+performance    improvements    possible   with   these   approaches   and   the
+representational tradeoffs involved in them</sentence>.</paragraph>

@@ -1,0 +1,113 @@
+<0.30.5.95.19.36.41.muranaga@cs.cmu.edu (Tetsuro Muranaga).0>
+Type:     cmu.cs.proj.coda.general
+Who:      <speaker>Toshinari Takahashi</speaker> <takahasi@isl.rdc.toshiba.co.jp>
+          Communication and Information Systems Research Labs.
+          TOSHIBA R&D Center
+Topic:    File-based Network Collaboration System
+Dates:    2-Jun-9
+Time:     <stime>10:30</stime> - <etime>12:00</etime>
+Place:    <location>WeH 8220</location>
+PostedBy: muranaga on 30-May-95 at 19:36 from cs.cmu.edu (Tetsuro Muranaga)
+Abstract: 
+
+Hi folks,
+
+<paragraph><sentence>As Satya informed you by e-mail, my colleague will be visiting and
+giving a talk on his research "File-Based Network Collaboration System"</sentence>.
+<sentence>I appreciate for your joining the discussion in his talk</sentence>.</paragraph>
+
+<paragraph><sentence>He is on the way to USENIX security symposium in Salt Lake City , and I
+think he will give the same talk</sentence>.</paragraph>
+
+<paragraph><sentence>For your reference, I put his USENIX paper in Postscript to</sentence>:
+/coda/usr/muranaga/pub/paper.ps
+/afs/cs/usr/muranaga/pub/paper.ps</paragraph>
+
+<paragraph><sentence>The followings are information about his talk and himself</sentence>.</paragraph>
+
+   --- --- --- --- ---
+ TITLE: File-based Network Collaboration System
+
+ WHO: <speaker>Toshinari Takahashi</speaker> <takahasi@isl.rdc.toshiba.co.jp>
+      Communication and Information Systems Research Labs.
+      TOSHIBA R&D Center
+ WHEN:	June 2, <stime>10:30</stime>-<etime>12:00</etime>
+ WHERE:  <location>WeH 8220</location>
+
+<paragraph>  <sentence>Computer-Supported Cooperative Work (CSCW) requires coordinated access 
+to shared information over computer networks; such networks have tended
+to use wires, but wireless networks are now becoming common</sentence>.</paragraph>
+<paragraph>  <sentence>There are a large number of tools aimed at helping users to work
+cooperatively but these tend to be application specific, leading to
+proliferation and requiring a large amount of development effort</sentence>. <sentence>A more 
+general purpose mechanism would keep the number of tools manageable, and 
+would obviate the need to develop a completely new tool for each problem 
+area</sentence>.</paragraph>
+<paragraph>  <sentence>Data security is also a very important requirement in distributed
+systems</sentence>. <sentence>A solution to the problems of cooperative working must take
+this security requirement into account</sentence>.</paragraph>
+<paragraph>  <sentence>This paper describes a mechanism aimed at both problems; a general
+purpose tool for cooperative working that is more secure than existing
+proposals</sentence>.</paragraph>
+<paragraph>  <sentence>Our approach is novel in that we do not require explicit locking,
+which can lead to a number of problems, particularly in distributed
+systems, as we shall explain</sentence>. <sentence>Client routines act upon user requests to
+insert or delete blocks in a file, and request a file-server to modify a 
+shared file according to those requests</sentence>. <sentence>The file-server receives
+encrypted requests asynchronously and merges these requests into the
+current version of the document without decrypting the requests</sentence>. <sentence>Indeed, 
+an interesting feature of our proposal is that the server could not
+decrypt the content of these requests even if it wanted to</sentence>. <sentence>We call this 
+mechanism "privacy enhanced merging"</sentence>.</paragraph>
+<paragraph>  <sentence>Our current implementation includes a concurrent editing application
+that we call "Network BBS"; the server is able to make use of a
+conventional file system</sentence>. <sentence>This is an experimental tool of our proposed
+"Collaborative File System"</sentence>.</paragraph>
+
+PROFILE (excerpt from his mail):
+
+<paragraph><sentence>I would like to introduce our `Collaborative File System' project</sentence>.
+<sentence>Please refer the attached paper for the 5th USENIX/UNIX Security Symposium
+held on next month</sentence>.  <sentence>Unfortunately, this is the only paper about our project
+written in English</sentence>.</paragraph>
+
+<paragraph><sentence>Our system takes secure and weak-consistency approach and is good for
+mobile computing, wireless networks, disconnected/intermittent operations,
+and asynchronous shared editing</sentence>.</paragraph>
+
+<paragraph><sentence>An interesting feature of our proposal is that
+although every request from clients is encrypted, the server can manage
+the request in encrypted form</sentence>.</paragraph>
+<paragraph><sentence>We use appropriate data structure and an encryption algorithm for this
+purpose</sentence>.</paragraph>
+
+<paragraph><sentence>I believe our system is a novel approach to mobile computing, but
+I am afraid our approach is too tricky and has disadvantages for
+`general purpose' file system</sentence>.</paragraph>
+
+<paragraph><sentence>I would like to make a presentation about our strategy for disconnected
+operations and discuss the difference between the standpoint of our system
+and that of the Coda file system</sentence>.</paragraph>
+
+<paragraph>Finally, I would like to introduce myself::</paragraph>
+	<speaker>Toshinari Takahashi</speaker>
+	Research scientist
+	Communication and Information Systems Research Labs.
+	TOSHIBA R&D Center
+	<takahasi@isl.rdc.toshiba.co.jp>
+
+<paragraph>	<sentence>I received my M. Eng. from the University of Tokyo in 1988</sentence>.
+	<sentence>My research interests include memory management for Lisp language,
+	network mail system (sendmail), and network security</sentence>.
+	<sentence>I implemented complete Garbage Collector for a UTI-Lisp,
+	and I am the author of a free software of "mail-expand" command</sentence>.</paragraph>
+
+<paragraph><sentence>Thank you</sentence>.</paragraph>
+
+	--- Tetsuro
+
+--
+	Tetsuro Muranaga	Computer Science Department
+				Carnegie Mellon University
+ 				Phone: 412-268-8019	Fax: 412-268-5576
+ 				E-mail: muranaga@cs.cmu.edu

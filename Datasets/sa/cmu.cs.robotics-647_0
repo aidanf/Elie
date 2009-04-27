@@ -1,0 +1,51 @@
+<0.12.11.92.11.09.13.aw@CS.CMU.EDU (Andy Witkin).0>
+Type:     cmu.cs.robotics
+Topic:    reminder: <speaker>Elisha Sacks</speaker> talk TODAY
+Dates:    12-Nov-92
+Time:     <stime>3:00</stime>
+Host:     Andy Witkin
+          To schedule a meeting, email
+          Phyllis.Pomerantz@cs.cmu.edu or call her at 268-7897.
+PostedBy: aw on 12-Nov-92 at 11:09 from CS.CMU.EDU (Andy Witkin)
+Abstract: 
+
+			   GRAPHICS SEMINAR
+			 Thursday, 12 Nov 92
+		    3:00 reception, <stime>3:30</stime>-<etime>4:30</etime> talk
+			      <location>Wean 4623</location>
+	     Model-Based Kinematic Analysis of Mechanisms
+
+			     <speaker>Elisha Sacks</speaker>
+
+		     Computer Science Department
+			 Princeton University
+
+			   joint work with
+
+			    Leo Joskowicz
+		       IBM TJ Watson Laboratory
+
+<paragraph><sentence>I will describe our research in automating the kinematic analysis of
+rigid part mechanisms, such as gears, cylinder locks, clutches, and
+transmissions</sentence>.  <sentence>Kinematic analysis determines the constraints on the
+behavior of a mechanism imposed by the shapes of its parts and by the
+contacts among them</sentence>.  <sentence>Automating the analysis is an important step
+toward automating the overall design and analysis of mechanisms</sentence>.  <sentence>The
+computational complexity of kinematic analysis depends on the shapes
+and motion types of the parts of the mechanism, and is in general
+intractable</sentence>.  <sentence>We have identified engineering restrictions on part
+shapes and interactions that make kinematic analysis feasible</sentence>.  <sentence>Most
+mechanisms belong to the feasible class according to a survey of 2500
+mechanisms in a standard mechanical engineering encyclopedia</sentence>.  <sentence>We have
+developed an efficient kinematic analysis program for feasible
+mechanisms</sentence>.  <sentence>The program derives the motion of the parts for given
+input motions and internal forces, such as gravity and friction</sentence>.  <sentence>It
+uses a simple model of dynamics that captures the steady-state effect
+of forces without the conceptual and computational cost of traditional
+dynamical simulation</sentence>.  <sentence>It generates a compact, symbolic behavioral
+description and a realistic, three-dimensional animation</sentence>.  <sentence>It can also
+generate the space of behaviors for all possible input motions</sentence>.</paragraph>
+
+ Host: Andy Witkin
+<paragraph> <sentence>To schedule a meeting, email
+ Phyllis.Pomerantz@cs.cmu.edu or call her at 268-7897</sentence>.</paragraph>

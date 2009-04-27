@@ -1,0 +1,46 @@
+<0.24.2.93.12.42.29.fp+@cs.cmu.edu (Frank Pfenning).0>
+Type:     cmu.cs.group.pop
+Topic:    POP Seminar Feb 16: Danvy
+Dates:    26-Feb-93
+Time:     <stime>3:00 PM</stime> - <etime>4:00 PM</etime>
+PostedBy: fp+ on 24-Feb-93 at 12:42 from cs.cmu.edu (Frank Pfenning)
+Abstract: 
+
+			     POP SEMINAR
+			 Friday, February 26
+			    <stime>3:00pm</stime>-<etime>4:00pm</etime>
+			      <location>WeH 8220</location>
+		         Many Happy Returns
+	    (Two new results about the CPS transformation)
+
+			   <speaker>Olivier Danvy</speaker>
+		       CMU (freshly from KSU)
+
+<paragraph> Keywords: continuation-passing style, evaluation order, thunks, tree flattening
+
+<sentence>How does the CPS transformation encode an evaluation order</sentence>?  <sentence>What is
+the relation eg, between Plotkin's call-by-name and call-by-value CPS
+transformations C_n and C_v</sentence>?  <sentence>We show that
+			C_n = C_v o T
+where T is a syntactic transformation inserting thunks (ie,
+suspensions) in a lambda-term</sentence>.  <sentence>This result is interesting because
+	(1) it shows that continuations are not necessary to simulate
+call-by-name under call-by-value; and
+	(2) it unifies parts of Plotkin's seminal paper "Call-by-name,
+call-by-value, and the lambda-calculus"</sentence>.</paragraph>
+
+<paragraph><sentence>Why does the CPS transformation look so contorted</sentence>?  <sentence>Why does it
+require so many administrative reductions</sentence>?  <sentence>We stage it into three
+ steps: naming, sequentialization, and introduction of continuations</sentence>.
+ <sentence>In particular, the introduction of continuations does not require any
+ administrative reductions over the resulting CPS term</sentence>.  <sentence>We also show
+ that the second step of the call-by-value CPS transformation is a
+ compositional postfix tree-traversal with a functional accumulator</sentence>.
+ <sentence>These two results are interesting because
+	(1) the two first steps perform the equivalent of administrative
+reductions over the original lambda-term; and
+	(2) the CPS transformation yields sequentialized terms because
+deep inside, it encodes a flattening function</sentence>.</paragraph>
+
+<paragraph><sentence>The first part of this talk is joint work with John Hatcliff at Kansas
+State University</sentence>.</paragraph>

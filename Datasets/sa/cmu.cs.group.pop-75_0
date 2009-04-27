@@ -1,0 +1,37 @@
+<0.2.2.93.16.36.21.fp+@cs.cmu.edu (Frank Pfenning).0>
+Type:     cmu.cs.group.pop
+Topic:    POP Seminar Feb 5
+Dates:    5-Feb-93
+Time:     <stime>3:00 PM</stime> - <etime>4:00 PM</etime>
+PostedBy: fp+ on 2-Feb-93 at 16:36 from cs.cmu.edu (Frank Pfenning)
+Abstract: 
+
+<paragraph><sentence><speaker>Alex Aiken</speaker> will be here the whole day Friday</sentence>.  <sentence>If you would like to talk to
+him, please contact Nevin Heintze <nch@cs.cmu.edu></sentence>.</paragraph>	- Frank
+----------------------------------------------------------------------
+			 POP SEMINAR
+		     Friday, Feb 5, 1993
+			<stime>3:00pm</stime>-<etime>4:00pm</etime>
+			   <location>WeH 8220</location>
+             Type Inference with Set Constraints
+		   <speaker>Alex Aiken</speaker> (IBM, Almaden)
+
+<paragraph><sentence>Set constraints are a simple extension of standard type languages</sentence>. <sentence>In
+addition to the usual type constructors, set constraints add the set
+operations (union, intersection, and a kind of negation) and
+constraints of the form "X is a subset of Y"</sentence>.  <sentence>This combination of
+inclusion constraints and set operations makes it possible to devise
+some very powerful type systems</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk we present one such set constraint type system for the
+lambda calculus</sentence>.  <sentence>This system has some interesting properties: first,
+every pure lambda term has a type; second, whenever a term is typable
+in the Hindley/Milner type system, the Hindley/Milner type is an
+instance of the type assigned by the set constraint type system; and
+third, the set constraints can be solved, so there is an effective
+type inference algorithm</sentence>.  <sentence>As time permits, we will also make some
+comparisons with other type inference systems and discuss other
+possible applications of set constraints to program analysis</sentence>. <sentence>The talk
+will be illustrated with examples taken from our implementation of a
+type inference system based on solving systems of set constraints</sentence>.
+<sentence>This is joint work with Ed Wimmers</sentence>.</paragraph>

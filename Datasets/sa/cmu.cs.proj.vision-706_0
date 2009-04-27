@@ -1,0 +1,57 @@
+<0.05.6.90.14.58.27.Patricia.Mackiewicz@IUS2.CS.CMU.EDU.0>
+Type:     cmu.cs.proj.vision
+Topic:    Special Seminar 6/14/90
+Dates:    14-Jun-90
+Time:     <stime>10:00 AM</stime>
+Place:    <location>Wean Hall 7220</location>
+PostedBy: Patricia.Mackiewicz on 05-Jun-90 at 14:58 from IUS2.CS.CMU.EDU
+Abstract: 
+
+
+ WHEN:	Thursday, June 14, 1990, <stime>10:00 am</stime>
+ WHERE:	<location>Wean Hall 7220</location>
+
+	Parallel Computer Architectures for Real Time Image Processing and
+			Neural Net Simulations
+
+			   <speaker>Toni Gunzinger</speaker>
+
+		Swiss Federal Institute of Technology
+
+<paragraph><sentence>The SYnchronous DAtaflow MAchine (SYDAMA) is a parallel computer architecture 
+for real time image processing</sentence>. <sentence>The architecture centers on the direct mapping
+of a static dataflow graph into hardware: each node (or group of nodes) is 
+replaced by a processing element</sentence>. <sentence>The processing elements are connected by a
+flexible and fast communication network based on multiple interruptable buses</sentence>.</paragraph>
+
+<paragraph><sentence>A prototype of the system has been built</sentence>. <sentence>Many low level image processing
+ algorithms run in real time at video rate</sentence>.</paragraph>
+
+<paragraph><sentence>Applications of the system include real time computer vision, real time image
+enhancement, robotics, and autonomous systems</sentence>. <sentence>A color classification 
+algorithm for an autonomous vehicle guidance runs at video rate (50 frames
+per second)</sentence>. <sentence>For this application more than 200 million instructions (VAX
+ equivalent) are executed on the SYDAMA</sentence>.</paragraph>
+
+                     ------------------------
+
+<paragraph><sentence>The SYDAMA-3 (SYnchronous DAtaflow MAchine) is a parallel computer architecture
+for numeric applications</sentence>. <sentence>Each Processing element consists of a DSP (digital 
+signal processor), memory and a fast communication unit</sentence>.  <sentence>A first system with
+one single DSP have been built</sentence>. <sentence>For a multilayer perceptron (3 layers with
+100 node each) 5 MCPS (Million Connections Per Second) respectively
+0.4 MBCPS (Million Backwards Connections Per Second) can be executed</sentence>. 
+<sentence>SYDAMA-3 with 10 processing elements will allow 50 MCPS respectively 25 MBCPS</sentence>.
+<sentence>Applications of the system are robot control and image processing</sentence>.</paragraph>
+
+------------------------------------------------------------------------
+ BIO:
+
+<paragraph> <sentence>I am chief assistant in the electronics lab at the Swiss Federal Institute of 
+ Technology</sentence>. <sentence>A few years ago you visited our lab at the ETH (Swiss Federal
+ Institute of Technology)</sentence>. <sentence>We are building parallel computer architectures for
+ real time image processing and for neural net simulations</sentence>.</paragraph>
+
+------------------------------------------------------------------------
+
+<paragraph><sentence>If you are interested in meeting with him send email to patty+@ius2.cs.cmu.edu</sentence>.</paragraph>

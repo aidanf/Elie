@@ -1,0 +1,45 @@
+<0.22.3.93.11.51.27.feline+@ISL1.RI.CMU.EDU (Carol S Boshears).0>
+Type:     cmu.cs.robotics
+Topic:    Seminar
+Dates:    30-Mar-93
+Time:     <stime>12:00</stime> - <etime>1:00</etime>
+PostedBy: feline+ on 22-Mar-93 at 11:51 from ISL1.RI.CMU.EDU (Carol S Boshears)
+Abstract: 
+
+CIMDS Seminar - <speaker>Steve Chien</speaker>, JPL, 3/30. <stime>12:00</stime>-<etime>1:00</etime>, <location>Doherty Hall</location> ??
+	Learning Control Knowledge for Scheduling
+
+			<speaker>Steve Chien</speaker>
+		Jet Propulsion Laboratory
+	     California Institute of Technology
+
+<paragraph><sentence>While the general class of most scheduling problems is NP-hard in
+worst-case complexity (i.e., a general solution is doomed to poor 
+performance), in practice, for specific distributions of problems
+and constraints, domain-specific solutions have been shown to perform
+in much better than exponential time</sentence>.  <sentence>However, discovering these
+search strategies is a knowledge-intensive time-consuming process
+which requires a deep understanding of the domain</sentence>.</paragraph>
+
+<paragraph><sentence>The goal of this work is to develop techniques to allow for automated
+learning of effective domain-specific schedulers from a general
+scheduler with a flexible control strategy</sentence>.  <sentence>In this approach,
+techniques from machine learning and statistics are used to
+automaticaly find control settings to for the scheduler which allow it
+to improve performance on the domain-specific problems of interest</sentence>.</paragraph>
+
+<paragraph><sentence>These techniques have been applied to learning control settings for a 
+scheduler to schedule operations for the 26-meter subnet of the Deep 
+Space Network (DSN), operated by JPL and used to communicate with orbiting
+spacecraft and satellites</sentence>.  <sentence>For DSN projected schedules, the machine learning
+techniques were able to decrease the amount of CPU time required to
+produce a schedule by 50% for problems solvable by the scheduler</sentence>.
+<sentence>In addition, the machine learning allowed the scheduler to solve 15% more 
+of the problems within computational resource limitations</sentence>.</paragraph>
+
+<paragraph>(<sentence>This is joint work with Jonathan Gratch and Gerald DeJong of the
+University of Illinois</sentence>)</paragraph>
+
+<paragraph><sentence>Steve is interested in meeting with anyone working on projects in planning,
+scheduling and learning</sentence>. <sentence>If you are interested in meeting with Steve, please
+set up a time with Carol (boshears@isl1.ri.cmu.edu)</sentence>.</paragraph>

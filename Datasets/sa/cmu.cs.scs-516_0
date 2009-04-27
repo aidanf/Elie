@@ -1,0 +1,36 @@
+<0.29.1.92.12.52.29.avac+@AVA.ADM.CS.CMU.EDU (Ava Cruse).0>
+Type:     cmu.cs.scs
+Topic:    PS SEMINAR
+Dates:    3-Feb-92
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+PostedBy: avac+ on 29-Jan-92 at 12:52 from AVA.ADM.CS.CMU.EDU (Ava Cruse)
+Abstract: 
+
+                                 PS SEMINAR
+                             Monday, February 3, 1992
+                                 <stime>3:30pm</stime>-<etime>5:00pm</etime>
+                                <location>Wean Hall 5409</location>
+                                  <speaker>Garth Gibson</speaker>
+                           Carnegie Mellon University
+                          School of Computer Science
+
+                         Disk Reads with DRAM Latency
+
+<paragraph><sentence>One of the most difficult and (unfortunately) important challenges for a high
+performance file system is the achievement of low latency during a file cache
+miss</sentence>.  <sentence>We have recently begun a project to explore the feasibility and utility
+of using file access hints to eliminate long disk latencies by prefetching
+data</sentence>.  <sentence>These hints may have been issued explicitly by programmers,
+automatically by compilers, speculatively by parent tasks such as shells
+and makes, or historically by previously profiled executions</sentence>.
+<sentence>Our research will also address the thorny issues of hint specification,
+memory resource management, imprecise and incorrect hints, and appropriate
+interfaces for propagating hints to affected application, operating system,
+file system, and device specific modules</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk I will overview our research on this new project with
+specific attention to our immediate plans, the most difficult problems
+in front of us, and our long range vision for a hint-based prefetching
+file system interface</sentence>.</paragraph>
+
+<paragraph><sentence>This is joint work with R. Hugo Patterson</sentence>.</paragraph>

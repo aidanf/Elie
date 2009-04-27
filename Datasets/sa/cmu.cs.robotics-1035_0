@@ -1,0 +1,62 @@
+<0.23.1.94.20.30.00.xu+@IUS4.IUS.CS.CMU.EDU (Yangsheng Xu).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Alonzo Kelly</speaker>
+          The Robotics Institute
+          Carnegie Mellon University
+Topic:    Systems Design of An Off Road Autonomous Navigator
+Dates:    28-Jan-94
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+Host:     Yangsheng Xu (xu@cs.cmu.edu)
+PostedBy: xu+ on 23-Jan-94 at 20:30 from IUS4.IUS.CS.CMU.EDU (Yangsheng Xu)
+Abstract: 
+
+
+                       RI SEMINAR
+
+ WHEN:   Friday, Jan 28, 1994; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+        Refreshments will be served starting at 3:15 pm
+
+ WHERE:  <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER: <speaker>Alonzo Kelly</speaker>
+          The Robotics Institute
+          Carnegie Mellon University
+
+ TITLE:   Systems Design of An Off Road Autonomous Navigator
+
+<paragraph><sentence>This talk will overview the results to date for my PhD thesis in the area
+of autonomous cross country navigation</sentence>. <sentence>The work investigates aspects of 
+perception, planning, localization and control using the tools of complexity 
+and dimensional analysis, experimentation, and simulation</sentence>. <sentence>Ideas that emerge
+are implemented on the HMMWV at CMU on a proof of principle basis</sentence>. 
+<sentence>The prototype has achieved unprecedented speeds of 15 km/hr and excursions of 
+15 km on a local off-road test site</sentence>.</paragraph>
+
+ Perception:
+
+<paragraph> <sentence>Complexity analysis leads to the conclusion that while the raw throughput
+ requirement for the maintenance of safety is manageable, the traditional 
+ non-adaptive range image processing approach wastes tremendous computational
+ bandwidth</sentence>. <sentence>A simple active perception algorithm is introduced which 
+ computationally stabilizes the sensor vertical field of view</sentence>. <sentence>It makes 20 mph 
+ off road autonomy feasible and points to techniques that may permit real time 
+ stereo perception on serial hardware</sentence>.</paragraph>
+
+ Planning:
+
+<paragraph> <sentence>Investigation of the impact of latencies and limits on actuator response leads
+ to a reformulation of planning in configuration space as feedforward 
+ satisficingcontrol in actuation space</sentence>. <sentence>The traditional hierarchical 
+ planner-controller architecture collapses into a multi-input, 
+ multi-output feedforward controller which employs both somatic and 
+ environmental feedback and which closes this loop at relatively high 
+ update bandwidth</sentence>. <sentence>Steering feedforward, in particular, has been shown 
+ to be crucial to reliable navigation above 5 mph on rough terrain</sentence>.</paragraph>
+
+<paragraph><sentence>The talk will overview the subsystems of typical cross country navigators 
+and point to the impact of high speed robust navigation on subsystem 
+requirements</sentence>.</paragraph>
+
+ Host: 		Yangsheng Xu (xu@cs.cmu.edu)
+ Appointment: 	Lalit Katragadda (lalit@cs.cmu.edu)

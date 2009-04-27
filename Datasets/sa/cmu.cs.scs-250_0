@@ -1,0 +1,80 @@
+<0.25.10.91.08.32.13.avac+@AVA.ADM.CS.CMU.EDU (Ava Cruse).0>
+Type:     cmu.cs.scs
+Topic:    PS Seminar
+Dates:    4-Nov-91
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Host:     David Garlan
+PostedBy: avac+ on 25-Oct-91 at 08:32 from AVA.ADM.CS.CMU.EDU (Ava Cruse)
+Abstract: 
+
+                                PS SEMINAR
+
+                          Monday, November 4, 1991
+                               <stime>3:30PM</stime>-<etime>5:00PM</etime>
+                                  <location>WeH 5409</location>
+                        <speaker>Nathaniel S. Borenstein</speaker>
+                                Bellcore
+
+                Moving Multimedia Mail into the Mainstream:  
+                   Four Ideas for the Email of Tomorrow
+
+<paragraph><sentence>Email in general, and multimedia mail in particular, have long suffered
+from the problems of the lowest common denominator</sentence>.  <sentence>Because email is a
+shared community venture, it is most useful only when its avialability
+is nearly ubiquitous</sentence>.  <sentence>Fancy features that only work with one
+mail-reading program, such as the multimedia features of NeXT mail or
+the Andrew Message System, generally fall into disuse in a heterogeneous
+environment where the lowest common denominator prevails</sentence>.  <sentence>In this talk,
+I will present four new developments that are intended to make it easier
+to raise the lowest common denominators</sentence>.</paragraph>
+
+<paragraph><sentence>The first development is a new "bottom-up" approach to multimedia mail,
+implemented at Bellcore as "metamail,"  a tool for extending mail
+systems</sentence>.  <sentence>With metamail,  adding a new type of multimedia mail to all
+the local mail readers becomes as simple as installing a new executable
+and adding a line to a "mailcap" file</sentence>.  <sentence>Metamail support has been added
+to fifteen different mail reading programs, giving users of such
+programs as Berkeley Mail, MH, Elm, Emacs rmail, and many others the
+ability to receive a wide variety of media types in the mail</sentence>.</paragraph>
+
+<paragraph><sentence>The second development, a programming language known as ATOMICMAIL (*)
+(formerly MAGICMAIL), is an example of a new type of functionality that
+can be added to mail systems using metamail</sentence>.  <sentence>It is a programming
+language that has been designed expressly for remote execution via
+electronic mail</sentence>.  <sentence>In order to make this concept safe and practical, it
+was necessary to constrain the language it some interesting ways</sentence>.  <sentence>The
+net result is a language that is totally portable in its user interface
+mechanisms, and restricted to the extent that it is safe to run a
+program sent by a hostile source</sentence>.  <sentence>Surprisingly, despite these
+restrictions, a large number of useful applications have already been
+proposed, and many of them have already been implemented</sentence>.</paragraph>
+
+<paragraph><sentence>The third development is the emergence of a new Internet mechanism,
+which will soon be a draft standard, for sending multimedia mail on the
+Internet</sentence>.  <sentence>This document, which extends RFC 822, provides for typed mail
+messages, including multipart messages, which include rich text, audio,
+image, video, and other formats in a standard manner</sentence>.  <sentence>This mechanism
+has recently been used to interoperate multimedia mail between four
+entirely independent implementations, and has the potential to fulfill
+the promise inherent in Andrew and other multimedia mail systems</sentence>.</paragraph>
+
+<paragraph><sentence>In order to put all these pieces together in a practical manner,
+flexibility is not enough</sentence>.  <sentence>The necessary fourth development, therefore,
+will be the emergence of a new consensus on the lowest common
+denominator</sentence>.  <sentence>At Bellcore, work on integrating electronic mail and
+telephony points the way toward universal email service that includes
+rich text (in a format that can easily be reduced to plain text), active
+mail (e.g. ATOMICMAIL), and audio and image data (which can be presented
+to users of low-end terminals via telephones and fax machines)</sentence>.  <sentence>Only by
+making such mechanism available nearly universally to low-end users will
+it be possible to create a social milleu in which users of high-end
+workstations will feel comfortable with generating and sending 
+multimedia mail</sentence>.</paragraph>
+
+<paragraph>(*) <sentence>ATOMICMAIL is a trademark of Bellcore</sentence>.</paragraph>
+______________________________________________________________
+
+ Host:  David Garlan
+
+<paragraph><sentence>If you are interested in speaking with <speaker>Nathaniel Borenstein</speaker> while is here
+Monday, please send mail to Ava Cruse at avac@b.cs.cmu.edu</paragraph></sentence>

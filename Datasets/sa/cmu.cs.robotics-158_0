@@ -1,0 +1,52 @@
+<0.8.3.91.13.57.20.L.R.Adkins-Shellie@B.GP.CS.CMU.EDU.0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Dinesh K. Pai</speaker>, Department of Computer Science, Cornell University
+Topic:    Programming Complex Mechanical Systems with Applications 
+          to Dynamic Walking
+Dates:    8-Mar-91
+Time:     <stime>3:30 PM</stime>
+Place:    <location>Baker Hall, Adamson Wing</location>
+Host:     Michael Erdmann, x7883
+PostedBy: L.R.Adkins-Shellie on 8-Mar-91 at 13:57 from B.GP.CS.CMU.EDU
+Abstract: 
+
+
+ Speaker:  <speaker>Dinesh K. Pai</speaker>, Department of Computer Science, Cornell University
+ Title:    Programming Complex Mechanical Systems with Applications 
+ 	  to Dynamic Walking
+ Date:	  Friday, March 8, 1991
+ Time:     <stime>3:30 p.m</stime>. until <etime>4:30 p.m.</etime>
+ Location: <location>Baker Hall, Adamson Wing</location>
+ Host:     Michael Erdmann, x7883
+
+<paragraph><sentence>We consider the problem of developing control programs for complex
+mechanical systems with multiple, simultaneous tasks</sentence>.  <sentence>Such systems are
+difficult to program using traditional robot programming methods</sentence>.  <sentence>As a
+concrete example, we consider the problem of controlling a human-like
+machine to walk dynamically in three dimensions</sentence>.  <sentence>This problem has several
+applications, including the design and construction of walking machines
+capable of rough terrain mobility, computer graphic animation of complex
+figures, and more distantly, understanding human walking</sentence>.</paragraph>
+
+<paragraph><sentence>We describe a new framework called ``Least Constraint'' for programming
+such a machine</sentence>.  <sentence>In this framework, we do not specify the desired motion in
+terms of trajectories but rather more weakly as a collection of assertions
+to hold</sentence>.  <sentence>These assertions are expressed as time varying inequality
+constraints in various domains</sentence>.  <sentence>We thus attempt to capture the essential
+requirements of a task without imposing unnecessary structure</sentence>.  <sentence>The
+constraints are solved at run time to produce control torques</sentence>.  <sentence>Constraint
+satisfaction is performed using a fast iterative technique which takes
+advantage of functional decomposition and automatic differentiation</sentence>.</paragraph>
+
+<paragraph><sentence>The approach has been successful in generating stable dynamic walking with
+various gaits</sentence>.  <sentence>We have implemented an object-oriented programming
+environment for this purpose in Common Lisp using CLOS, and tested the
+approach using a full rigid-body mechanics simulation</sentence>.  <sentence>We shall describe
+the results of our simulation experiments with the aid of computer
+animation</sentence>.</paragraph>
+
+----------
+<paragraph><sentence>Refreshments will be served from 3:15-3:30</sentence>.</paragraph>  
+<paragraph><sentence>Discussion and questions:  4:30-5:00</sentence>.</paragraph>
+<paragraph><sentence>Everyone in the CMU community is invited to attend</sentence>.</paragraph>
+----------

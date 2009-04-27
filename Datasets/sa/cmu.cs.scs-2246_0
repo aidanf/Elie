@@ -1,0 +1,56 @@
+<0.19.10.93.11.57.59.trg+@N3.SP.CS.CMU.EDU (Thomas Gross).0>
+Type:     cmu.cs.scs
+Topic:    CS/PSC Seminar 10/22 @ <stime>4:00 p.m</stime> <location>WeH 5409</location> A. Nowatzyk of Sun
+Dates:    22-Oct-93
+Time:     <stime>4:00 PM</stime>
+PostedBy: trg+ on 19-Oct-93 at 11:57 from N3.SP.CS.CMU.EDU (Thomas Gross)
+Abstract: 
+
+	Pittsburgh Supercomputing Center (PSC)/Computer Systems Seminar
+
+                The S3.mp Scalable Shared Memory Multiprocessor:
+		      The Network is the Computer, really!
+
+			     <speaker>Andreas  Nowatzyk</speaker> 
+                  Sun Microsystems Computer Corporation (SMCC)
+
+   	   Friday,  Oct 22, <location>Wean Hall 5409</location>, <stime>4:00 p.m</stime>.
+
+<paragraph><sentence>The S3.mp scalable multiprocessor system is an experimental research project
+that is being implemented by SMCC's Technology Development group (TD) to
+demonstrate a low overhead, high throughput communication system that is based
+on cache coherent distributed shared memory (DSM)</sentence>.  <sentence>Conceptually, S3.mp is a
+virtual bus-extender that preserves the semantics of accessing memory across
+all nodes</sentence>.  <sentence>Unlike multiprocessor busses that use broadcasting to maintain
+memory coherency, S3.mp uses directories and point-to-point messages that are
+send over a packet switched interconnect fabric to achieve scalability over a
+wide range of system configurations</sentence>.</paragraph>
+
+<paragraph><sentence>Communication technology advances, such as high speed fiber optics, are the
+driving force behind the S3.mp development</sentence>.  <sentence>While it is technically easier to
+utilize the increased bandwidth with conventional memory-to-memory copy
+engines, the resulting message passing hardware requires substantial software
+overhead to process protocol stacks, manage buffers, encode and decode
+messages, etc</sentence>.  <sentence>In S3.mp, communication happens as a side-effect of accessing
+ memory:  a single store or load instruction is sufficient to send or receive
+ data</sentence>.  <sentence>The set of transactions that are required to support the DSM paradigm
+ is small and well defined so that the S3.mp protocols were amenable to formal
+ verification methods and are implemented directly in hardware</sentence>.</paragraph>
+
+<paragraph><sentence>S3.mp systems are similar to ALEWILE, DASH, PLUS and other nonuniform memory
+access (NUMA) multiprocessors</sentence>.  <sentence>However unlike these conventional NUMA MPs,
+which strive to deliver the most MFlops to one scientific application, S3.mp
+is optimized for a large collection of independent applications that share
+common computing resources which may be spatially distributed</sentence>.  <sentence>Consequently,
+S3.mp nodes may be separated by up to 200m, which means that a S3.mp system
+could be distributed over an entire building</sentence>.  <sentence>Essentially, S3.mp systems are
+build by adding a specialized interconnect controller to the memory subsystem
+of a normal workstation</sentence>.</paragraph>
+
+<paragraph><sentence>The talk will describe the S3.mp architecture and the technologies used to
+implement it</sentence>.</paragraph>
+
+<paragraph><sentence>Joint work with M. Parkin, E. Kelly, M. Browne, G. Aybay, and H. Lee of
+Sun Microsystems Computer Corporation (SMCC) and D. Lee of Xerox Palo
+Alto Research Center (PARC)</sentence>.</paragraph>
+

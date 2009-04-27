@@ -1,0 +1,84 @@
+<0.6.6.94.09.12.22.trg+@N3.SP.CS.CMU.EDU (Thomas Gross).0>
+Type:     cmu.cs.proj.warp.iwarp
+Topic:    Special CS Seminar 6/6 <stime>3:00 p.m</stime>. <speaker>Brezany</speaker> (Univ. of Vienna) <location>WeH 8220</location>
+Dates:    6-Jun-94
+Time:     <stime>3:00 PM</stime>
+PostedBy: trg+ on 6-Jun-94 at 09:12 from N3.SP.CS.CMU.EDU (Thomas Gross)
+Abstract: 
+
+		Special CS Seminar
+
+	Monday June 6, 1994  <stime>3:00 p.m</stime>. <location>WeH 8220</location>
+
+	The  PREPARE High Performance Fortran Compiler
+
+		<speaker>Peter BREZANY</speaker>
+	Institute for Software Technology and 
+		Parallel Systems
+	University of Vienna
+ 	Vienna, Austria
+
+<paragraph><sentence>The objective of the PREPARE project that is funded by the Commission of the
+European Communities is to develop a programming environment in which High
+Performance Fortran (HPF) programs can be developed or restructured in a
+machine-independent fashion and executed on  massively parallel MIMD
+machines</sentence>.</paragraph>
+
+<paragraph><sentence>The PREPARE environment introduces a novel approach to
+compiling HPF</sentence>. <sentence>It is based on three tightly integrated
+ components</sentence>:</paragraph>
+ (i)  a parallelizer (containing a  Parallelization Engine,
+ a  Cost Estimator and a set of  Analysis Engines)
+ that transforms the original
+ data-parallel form of the source program into Single Program
+ Multiple Data (SPMD) form,
+(ii) an  Interactive Engine that communicates with the 
+programmer, and
+(iii) an efficient Compilation System that generates highly
+optimized code that fully exploits the intra-processor
+parallelism of the target machine.
+
+<paragraph><sentence>The speaker participates in the development of the Parallelization Engine</sentence>.
+<sentence>In the first part of the talk, we'll introduce the compiler architecture and
+give an overview of the compilation strategy</sentence>.</paragraph>
+
+<paragraph><sentence>Then we'll discuss techniques for work distribution
+and communication generation which are applied to regular
+codes</sentence>. <sentence>Executable statements are masked (guarded) to ensure that
+all variable updates are exclusively in the local memory of
+the executing processor</sentence>. <sentence>Possible data movements between
+processors are specified by means of so called 
+communication descriptors COMMs which are generated and
+inserted into the program instead of concrete communication
+statements to enable later optimizations</sentence>. <sentence>In the case of a
+procedure call, COMMs are inserted before and/or after
+the call whenever it is necessary to redistribute the actual
+argument</sentence>.</paragraph>
+
+<paragraph><sentence>The third part will be devoted to techniques used for processing
+irregular codes</sentence>. <sentence>Processing array statements (assignment
+statements and WHERE statements) with vector
+subscripted accesses to array sections having multidimensional
+distributions will be discussed in more detail</sentence>. <sentence>Transformation
+techniques used are supported by the extended PARTI library</sentence>.</paragraph>
+
+<paragraph><sentence>Finally, compiler generation tools that speed-up the
+PREPARE HPF compiler implementation will be briefly discussed</sentence>.</paragraph>
+
+---------
+
+<paragraph><sentence><speaker>Peter Brezany</speaker> provided this additional information</sentence>:</paragraph>
+
+<sentence>My main research interests include</sentence>:
+
+	- automatic parallelization of irregular codes
+	  <sentence>Irregular distributions and irregular accesses</sentence>:
+          <sentence>All these features have already been implemented in the
+	  Vienna Fortran Compilation System under my supervision</sentence>.
+
+	- concurrent I/O
+
+	- compiling for distributed-memory systems in general
+
+	- task parallelism
+

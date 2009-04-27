@@ -1,0 +1,102 @@
+<0.18.2.93.19.32.03.ph+@cs.cmu.edu (Paul Heckbert).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Jarek Rossignac</speaker>, IBM T.J. Watson Research Center
+Topic:    BEZIER-MINKOWSKI METAMORPHOSIS & INTERACTIVE GEOMETRIC MODELING
+          A two-part presentation
+Dates:    23-Feb-93
+Time:     <stime>3:30</stime> - <etime>4:30</etime>
+Place:    <location>Wean 4623</location>
+PostedBy: ph+ on 18-Feb-93 at 19:32 from cs.cmu.edu (Paul Heckbert)
+Abstract: 
+
+			  GRAPHICS SEMINAR
+
+ title:	 BEZIER-MINKOWSKI METAMORPHOSIS & INTERACTIVE GEOMETRIC MODELING
+ 	 A two-part presentation
+
+ speaker: <speaker>Jarek Rossignac</speaker>, IBM T.J. Watson Research Center
+
+ place:	 <location>Wean 4623</location>
+
+ date:	 Tuesday, February 23, 1993, <stime>3:30</stime>-<etime>4:30</etime>
+	 refreshments at 3:15
+
+PART 1:
+		    BEZIER-MINKOWSKI METAMORPHOSIS
+		     (joint work with Anil Kaul)
+
+<paragraph><sentence>The interpolation between two solids offers a new tool for designing
+and modifying shapes and an intuitive metaphor for specifying and
+animating deforming shapes as the metamorphosis between a start-solid
+and a different end-solid</sentence>. <sentence>Previously known techniques for computing
+and animating such interpolations have required extensive user input,
+have been limited in their domain, or have been too slow for
+interactive use</sentence>. <sentence>We present a new technique that automatically
+computes a parameterized family of shapes which interpolate arbitrary
+start- and end-polyhedra</sentence>. <sentence>The user needs only specify the relative
+orientation of the two solids, which need not be convex or
+star-shaped, nor have the same number of faces</sentence>. <sentence>We have extended the
+above technique to offer easy to use additional control over the
+ deformation: besides the starting and ending solids, the new Bezier
+ Interpolating Polyhedron (BIP) provides the possibility of specifying
+ additional control polyhedra which influence the intermediate shape of
+ the deforming object, while still preserving the boundary conditions
+ defined by the -start and end-solid</sentence>. <sentence>The representation of such a
+ deforming object is formulated mathematically as a point describing a
+ Bezier curve in the space of all polyhedra</sentence>. <sentence>We replace, in the Bezier
+ formulation, the traditional control points by arbitrary control
+ polyhedra and the vector addition by the Minkowski sum</sentence>. <sentence>BIPs are
+ composed of Animated GRaphic ELement (AGRELs), which are faces with
+ constant orientation, but with parameterized vertices represented by
+ Bezier curves</sentence>. <sentence>AGRELs were designed to efficiently support smooth
+ realtime animation on commercially available rendering hardware</sentence>. <sentence>We
+ provide a tested algorithm for automatically computing BIPs from the
+ sequence of arbitrary control polyhedra and demonstrate its
+ applications to animation and design</sentence>.</paragraph>
+
+PART 2:
+                   INTERACTIVE GEOMETRIC MODELING
+
+<paragraph><sentence>Increased compute power and emerging graphics capabilities available
+in commercial workstations make it possible to extend the interactive
+Computer Aided Design from 2-D drafting to the design of 3-D shapes,
+to the direct manipulation of assembly components, and to the
+animation of motions and deformations</sentence>. <sentence>Furthermore, traditional
+off-line ray-casting and hidden-lines removal techniques are being
+replaced with hardware-assisted realtime engineering visualization for
+inspecting complex models and their internal structures</sentence>.</paragraph>
+
+<paragraph><sentence>The speaker will overview several ongoing projects in the Interactive
+Geometric Modeling group at IBM Research and will illustrate them with
+video segments</sentence>.
+ - <sentence>Space deformations that interpolate multiple point-displacement
+constraints have been used by P. Borrel, D. Bechmann, and A. Rappoport
+to provide an interactive environment for editing ("sculpting")
+free-form shapes and for animating their deformations</sentence>.
+ - <sentence>ABCSG, a hypertext, direct-manipulation front-end for solid
+modeling, was developed by M. van Emmerik, A. Rappoport, and J.
+Rossignac</sentence>. <sentence>It combines gesture-driven assembly construction for rapid
+prototyping with precise dimensioning for final product definition</sentence>.
+ - <sentence>Programmable capabilities of high-end graphics rasterizers
+have been used by B. Schneider, A. Megahed, and J. Rossignac to provide
+realtime support for inspecting the internal structures of
+mechanical assemblies via user-controlled cut-out volumes,
+and for detecting and visualizing interferences</sentence>.
+ - <sentence>Automatic geometric compressions and 3-D clustering are used by
+P. Borrel, J. Mittleman, and J. Rossignac to construct spatial
+hierarchies and solid approximations with variable levels of details</sentence>.
+<sentence>These are used to drastically improve graphics performance while
+viewing complex scenes or detailed assembly models</sentence>. <sentence>Solid
+approximations are performed from triangulated shapes obtained by
+efficient triangulation algorithms developed by R. Ronfard and J.
+Rossignac. Triboxes, developed by A. Crosnier and J. Rossignac, are
+used to approximate background clusters</sentence>.
+ - <sentence>LAMBADA, an interactive animation editor, developed by J.
+Mastrogiulio, P. Borrel, J. Kim, and J. Rossignac, provides an
+object-oriented architecture based on hierarchical assembly graphs with
+screw-based motion-links an parameterized (animated) object-leaves</sentence>.</paragraph>
+
+<sentence>The speaker may be contacted at jarek@watson.ibm.com</sentence>
+
+<paragraph><sentence>For appointments with the speaker on Tuesday morning,
+email Phyllis.Pomerantz@cs or call 268-7897</sentence>.  Host: Paul Heckbert.</paragraph>

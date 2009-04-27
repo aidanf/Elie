@@ -1,0 +1,52 @@
+<1.18.9.85.18.06.51.Jeanne Bennardo@CMU-RI-ISL1.0>
+Type:     cmu.cs.proj.cimds
+Who:      <speaker>Dr. Donald Kosy</speaker>
+Topic:    Presentation of Ergo Project
+Dates:    20-Sep-9
+Time:     <stime>11:00 AM</stime> - <etime>12:00 PM</etime>
+Place:    <location>DH3313</location>
+PostedBy: Jeanne Bennardo on 18-Sep-85 at 18:06 from CMU-RI-ISL1
+Abstract: 
+
+ Topic:    Presentation of Ergo Project
+ Speaker:  <speaker>Dr. Donald Kosy</speaker>
+ Place:    <location>DH3313</location>
+ Date:     Friday, September 20
+ Time:     <stime>11:00am</stime> - <etime>12:00noon</etime>
+
+<paragraph><sentence>The Ergo project is an investigation into computer methods for explaining 
+results produced by quantitative planning models</sentence>.  <sentence>It is an outgrowth of
+previous research in which we developed a procedure that explains differences
+in results by comparing their derivations</sentence>.  <sentence>For example, given a suitable
+quantitative model and a series of results from it such as</sentence>:</paragraph>
+
+			1982		1983		1984
+	Profit	      $683.00	      $676.40	      $951.60
+
+this procedure can answer "why" questions about the results such as:
+
+	<sentence>Why did profit go down in 1983</sentence>?
+
+<paragraph>	  <sentence>Profit went down in 83 primarily because overhead cost went up and
+	profit = gross margin - overhead cost</sentence>.  <sentence>Although gross margin went up
+	by 19%, overhead cost went up by 41% and the latter outweighed the 
+	former</sentence>.  <sentence>Would you like me to continue</sentence>?</paragraph>
+
+<paragraph><sentence>The explanation can be continued all the way down to the lowest level of the 
+model, i.e. down to its input variables</sentence>.</paragraph>
+
+<paragraph><sentence>The intent of the current work is to extend the explanatory pwoer of this 
+procedure and to evaluate its potential for practical use</sentence>.  <sentence>In particular
+we are interested in extensions to cover</sentence>:</paragraph>
+
+	*Models that involve simultaneous equations
+	*Models that involve conditional expressions
+	*Explanations of differential magnitude, e.g. <sentence>Why did overhead cost
+	 go up so much</sentence>?
+	*Inferring the referents of comparison, e.g. <sentence>Why is production cost 
+	 high in 83</sentence>?
+	*Explaining lack of change, e.g. <sentence>Why did material cost remain 
+	 constant</sentence>?
+	*Explaining differences between "what-if" cases and a base case, e.g.
+	 <sentence>Why is profit in case 1 higher than for the base case</sentence>?
+

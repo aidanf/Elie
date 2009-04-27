@@ -1,0 +1,40 @@
+<0.8.1.93.23.10.34.maa+@ISL1.RI.CMU.EDU (Michelle Agie).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>PAUL S. HECKBERT</speaker>, Computer Science Dept., Carnegie Mellon Univ.
+Topic:    FILTERS FOR IMAGE RESAMPLING
+Dates:    15-Jan-93
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+PostedBy: maa+ on 8-Jan-93 at 23:10 from ISL1.RI.CMU.EDU (Michelle Agie)
+Abstract: 
+
+
+ WHEN:   Friday, Jan 15, 1993; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+        Refreshments will be served by 3:15 pm
+
+ WHERE:  <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER: <speaker>PAUL S. HECKBERT</speaker>, Computer Science Dept., Carnegie Mellon Univ.
+
+ TITLE: FILTERS FOR IMAGE RESAMPLING
+
+<paragraph><sentence>A common problem in image processing is resampling a raster image</sentence>.
+<sentence>This task crops up when removing distortions from satellite images and
+when performing texture mapping in computer graphics, for example</sentence>.
+<sentence>Careful filtering must be done during resampling or the results will
+appear blocky or show aliasing</sentence>.  <sentence>Traditionally, most research in
+resampling has addressed special cases</sentence>.  <sentence>Often, the class of mappings
+is restricted to be affine (translation, rotation, and scaling), in
+which case the filter is space invariant</sentence>.  <sentence>Furthermore, filters are
+often designed for interpolation (upsampling) only or decimation
+(downsampling) only</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk, we develop a unified theory for image resampling filters,
+which subsumes previous methods for affine mappings, interpolation, and
+decimation</sentence>.  <sentence>The theory describes the space variant filter for
+resampling a multidimensional signal according to an arbitrary mapping
+without aliasing</sentence>.  <sentence>A simple, fast approximation technique employing
+elliptical Gaussian filters will be demonstrated</sentence>.</paragraph>
+
+<sentence>Refreshments Will be served by 3:15pm</sentence>*
+

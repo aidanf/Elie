@@ -1,0 +1,44 @@
+<0.8.9.92.16.42.40.bag+@BARBARA.ADM.CS.CMU.EDU (Barbara Grandillo).0>
+Type:     cmu.cs.scs
+Who:      <speaker>Rajive Bagrodia</speaker>
+          Computer Science Dept., UCLA
+Topic:    Iterative Design of Efficient Parallel Programs
+Dates:    18-Sep-92
+Time:     <stime>2:30 PM</stime>
+Place:    <location>Wean Hall 4605</location>
+PostedBy: bag+ on 8-Sep-92 at 16:42 from BARBARA.ADM.CS.CMU.EDU (Barbara Grandillo)
+Abstract: 
+
+
+ SPEAKER:  <speaker>Rajive Bagrodia</speaker>
+           Computer Science Dept., UCLA
+
+ TOPIC:    Iterative Design of Efficient Parallel Programs
+
+ DATE:     Friday, September 18, 1992
+
+ TIME:     <stime>2:30 pm</stime>
+
+ PLACE:    <location>Wean Hall 4605</location>
+
+<paragraph><sentence>This talk describes an environment to derive efficient parallel
+implementations from program specifications using stepwise 
+refinement</sentence>.  <sentence>The environment is built around a data parallel
+notation called UC</sentence>.  <sentence>Novel aspects of UC include</sentence>:</paragraph>
+
+* support for the design of rapid prototypes 
+* incremental refinements for efficiency via dynamic data 
+  distributions and progressively weaker synchronizations
+* portability across synchronous and asynchronous architectures
+* simple control-flow constructs to ensure that correctness 
+  proofs are no more complicated than for equivalent 
+  sequential programs.
+
+<paragraph><sentence>A UC compiler is available for the CM-2; a sequential emulator 
+for UC is also available and a multicomputer implementation 
+is in progress</sentence>.  <sentence>Measurements of the UC compiler on selected 
+numerical and graph applications will be presented</sentence>.</paragraph>
+
+------
+<paragraph><sentence>If you want to talk to the speaker, please send a message to Barbara
+Grandillo (bag@cs.cmu.edu</sentence>).</paragraph>

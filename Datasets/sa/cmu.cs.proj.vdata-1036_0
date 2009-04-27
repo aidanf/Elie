@@ -1,0 +1,45 @@
+<0.18.10.90.09.17.29.Dave.McKeown@MAPS.CS.CMU.EDU.0>
+Type:     cmu.cs.proj.vdata
+Topic:    AI Seminar / Vision Topic
+Dates:    23-Oct-90
+Time:     <stime>3:30</stime> - <etime>5:00</etime>
+Host:     Dave McKeown                  Appointments: Lydia.Defilippo@cs, x3063
+PostedBy: Dave.McKeown on 18-Oct-90 at 09:17 from MAPS.CS.CMU.EDU
+Abstract: 
+			     <speaker>Sarvajit S. Sinha</speaker>
+		    Artificial Intelligence Laboratory
+			The University of Michigan
+
+			 A TWO STAGE ALGORITHM FOR
+	      DISCONTINUITY-PRESERVING SURFACE RECONSTRUCTION
+
+			 Tuesday, 23 October 1990
+			    <stime>3:30</stime>-<etime>5:00</etime> <location>WeH 5409</location>
+<paragraph>    <sentence>Visual   processes, such  as   shape-from-stereo  and shape-from-motion
+provide information only at scattered points  in  the  visual field</sentence>.  <sentence>These
+are typically the geometric and photometric edges in the  scene</sentence>.  <sentence>My thesis
+presents methods to fit  the scattered data  obtained from  these disparate
+processes in  order to  obtain    explicit  information about  the  visible
+surfaces  in the scene</sentence>.  <sentence>We have  introduced algorithms for  visual surface
+reconstruction  from   scattered  data (such  as   from  stereo), and novel
+techniques  to  compute a stable mathematical model   for a  large class of
+objects with piece-wise smooth surfaces</sentence>.</paragraph>
+
+<paragraph>    <sentence>This  talk  will concentrate  on  the  two-stage algorithm for   visual
+surface reconstruction from sparse data</sentence>.  <sentence>We present methods to  handle the
+common  sources   of error  in  current algorithms:  noise,    outliers and
+discontinuities in the data</sentence>.  <sentence>The basic paradigm is to clean  and grid (the
+first  stage),  and then to fit  the  data with  a discontinuity preserving
+spline  (the second  stage)</sentence>.  <sentence>The first   stage consists of a  robust local
+approximation algorithm to  both remove outliers  in the data and  create a
+grid    from the   original    scattered  data   points    which  preserves
+discontinuities</sentence>.  <sentence>The second  stage  uses a weighted bicubic tensor-product
+B-spline   as a surface   descriptor</sentence>.  <sentence>The  weighted  bicubic approximating
+spline is able to fit data with step discontinuities with little distortion
+in the approximated surface</sentence>.   <sentence>I will  also talk about  applications of the
+algorithm, including the three dimensional reconstruction of buildings from
+stereo aerial imagery</sentence>.</paragraph>
+
+-----------------------------------------------------------------------
+
+ Host: Dave McKeown                  Appointments: Lydia.Defilippo@cs, x3063

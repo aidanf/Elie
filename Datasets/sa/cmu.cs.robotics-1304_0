@@ -1,0 +1,47 @@
+<0.7.11.94.08.00.41.xu+@IUS4.IUS.CS.CMU.EDU (Yangsheng Xu).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Dan Huttenlocher</speaker>
+          Computer Science Department, Cornell University
+          and Xerox Palo Alto Research Center
+Topic:    Using Two-Dimensional Image Matching to Interpret the Three-Dimensional World
+Dates:    11-Nov-94
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+Host:     Yangsheng Xu (xu+@cs)/Martial Hebert (hebert@cs)
+PostedBy: xu+ on 7-Nov-94 at 08:00 from IUS4.IUS.CS.CMU.EDU (Yangsheng Xu)
+Abstract: 
+
+
+                       RI SEMINAR
+
+ WHEN:   Friday, Nov. 11, 1994; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+        Refreshments will be served starting at 3:15 pm
+
+ WHERE:  <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER:<speaker>Dan Huttenlocher</speaker>
+         Computer Science Department, Cornell University
+         and Xerox Palo Alto Research Center
+
+ TITLE:  Using Two-Dimensional Image Matching to Interpret the Three-Dimensional World
+
+<sentence><paragraph>We are investigating the extent to which two-dimensional representations
+are applicable to tasks that involve interacting with the three-dimensional
+world</sentence>.  <sentence>We have been using two-dimensional geometry extracted from images to
+solve a number of problems, including tracking moving objects, segmenting
+images based on motion, and navigating a mobile robot to a target</sentence>.  <sentence>Our
+methods are based on comparing portions of one image with another, under
+various transformations, using the generalized Hausdorff measure</sentence>.  <sentence>This
+measure determines the resemblance of point sets (binary images) by
+examining the fraction of points in one set that are near points in the
+other (and perhaps vice versa)</sentence>.  <sentence>Unlike most measures used in model-based
+matching, this measure is not based on computing a correspondence between
+points in the two sets</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk, I will describe the generalized Hausdorff measure, discuss how
+to compute it efficiently, and then present applications of the measure to
+motion tracking and visually guided navigation problems</sentence>.</paragraph>
+
+ Host: 		Yangsheng Xu (xu+@cs)/Martial Hebert (hebert@cs)
+ Appointment: 	Ava Cruse (avac@cs)/Marie Elm (mke@cs)
+

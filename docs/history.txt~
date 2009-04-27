@@ -1,0 +1,17 @@
+version		description
+-------------------------------------------------------------------------------------------
+0.1	First working version. Written entirely in jython. Modular design with access to 
+	all weka methods
+
+0.2	Rewrite in python. All weka functions now accessed using popen2. Now supports psyco
+	compilation. Design less flexible, but significant performance improvements. Lots of 
+	filters added
+
+0.3.0	Adds more intelligent start and end tag combining. New architecture. Multiple tag -> single tag. New datastructures.
+	Performance  and memory usage improvements. Adds the multilevel learner. Adds Scorer module.
+
+0.3.1	Removes instances filtering. Fixes bugs. Stable enough to use for ATEM draft experiments.
+
+0.4.0	new "hacked" version of SMO that returns confidence values
+	complete reorganisation of code to allow for multi-level learning, rather than hard coded 2 levels
+	some performance improvements and datastructure reorganisation: faster with smaller memory footprint

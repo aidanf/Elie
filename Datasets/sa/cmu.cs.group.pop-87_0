@@ -1,0 +1,32 @@
+<1.16.3.93.16.06.43.fp+@cs.cmu.edu (Frank Pfenning).0>
+Type:     cmu.cs.group.pop
+Topic:    POP Seminar: Rollins
+Dates:    19-Mar-93
+Time:     <stime>3:00 PM</stime> - <etime>4:00 PM</etime>
+PostedBy: fp+ on 16-Mar-93 at 16:06 from cs.cmu.edu (Frank Pfenning)
+Abstract: 
+
+			      POP SEMINAR
+			     Friday, Mar 19
+			     <stime>3:00pm</stime>-<etime>4:00pm</etime>
+				<location>WeH 8220</location>
+	 Standard ML is its own Module Interconnection Language
+				  -or-
+			  No Makefile Required
+
+			      <speaker>Gene Rollins</speaker>
+
+<paragraph><sentence>Standard ML (SML) contains a module sublanguage that has proven to be an
+elegant and useful means of organizing large programs into manageable
+components that are relatively easy to handle in isolation from one another</sentence>.
+<sentence>However, SML does not address the practical problems of constructing and
+maintaining large programs</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk I will develop an incremental-compilation mechanism for the
+SML/NJ compiler</sentence>. <sentence>Instead of requiring a separate ``makefile'', this mechanism
+computes a source-dependency graph for a set of SML sources by interpreting
+the module sublanguage of each source and doing use-definition analysis</sentence>.
+<sentence>Incremental compilation traverses the dependency graph and caches the results
+of compiling individual sources</sentence>.  <sentence>After changes to some of the sources,
+the incremental-compilation mechanism compiles only what is necessary to
+bring the system up to date</sentence>.</paragraph>

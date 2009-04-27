@@ -1,0 +1,66 @@
+<0.06.8.91.12.08.12.Riichiro.Take@IUS3.IUS.CS.CMU.EDU.0>
+Type:     cmu.cs.proj.warp.iwarp
+Topic:    AP1000 talk
+Dates:    10-Aug-91
+Time:     <stime>4:00 PM</stime>
+PostedBy: Riichiro.Take on 06-Aug-91 at 12:08 from IUS3.IUS.CS.CMU.EDU
+Abstract: 
+<paragraph><sentence>My friend, <speaker>Mr. Takeshi Horie</speaker>, is going to visit me on Aug. 17 on his
+way home from ICPP'91</sentence>. <sentence>He is the designer of the router of the AP1000,
+Fujitsu's experimental parallel processor</sentence>.</paragraph>
+
+<paragraph><sentence>He told me that he would like to give you a presentation about the AP1000,
+if there is audience of more than three</sentence>. <sentence>But, I don't know if the AP1000
+talk is attractive enough to make you come to school on Saturday</sentence>.</paragraph>
+
+<paragraph><sentence>So, if you are interested in the presentation, please send me an e-mail, so
+I can count the potential number of audience</sentence>. <sentence>The presentation would be
+held at <stime>4:00pm</stime> on 17 (Sat)</sentence>. <sentence>I put a short introduction to the AP1000 at
+the end of this article</sentence>.</paragraph>
+<sentence>Thank you</sentence>. -- Take
+---
+   *** introduction to Fujitsu AP1000 ***
+
+<paragraph><sentence>AP1000 is a parallel processor built up by up to 1024 cells</sentence>. <sentence>AP1000
+is a single user computer and used as a back end machine connected
+to a SUN 4 just like an iWarp</sentence>.</paragraph>
+
+<paragraph><sentence>Though AP1000 is NOT a commercial machine, we have shipped 64 cell
+system of AP1000 to Australian National University</sentence>.</paragraph>
+
+1. Interconnection Networks
+
+<paragraph><sentence>AP1000 has three types of interconnection networks: T-net, S-net, and
+B-net</sentence>. <sentence>T-net is a torus network  which is used for point-to-point
+communication between cells</sentence>. <sentence>The hardware router of T-net does wormhole
+routing and provides 25 Mbyte/sec of bandwidth</sentence>. <sentence>Providing the absence of
+contention, the elapse time to complete transmission of a message is
+40 * (1 + distance + mesg_size) ns</sentence>.</paragraph>
+
+<paragraph><sentence>B-net is a broadcasting bus of 50 Mbyte/sec bandwidth, which is
+implemented as ring-connected 32 cells each of which is the top of
+a tree of 32 cells</sentence>. <sentence>Downloading programs from SUN to AP1000 is done by
+the B-net</sentence>.</paragraph>
+
+<paragraph><sentence>S-net is a tree network just for synchronization between cells</sentence>.</paragraph>
+
+2. Cell
+
+<paragraph><sentence>Each cell of AP1000 has 25 MHz SPARC chip, Weitek FPU chip, 128 Kbyte
+direct-mapped cache organized in lines of 16 bytes, 16 Mbyte DRAM with
+four-way interleave and memory protection table, and message controller
+for S-net, B-net and T-net</sentence>.</paragraph>
+
+<paragraph><sentence>The message controller has so-called stride DMA function, which can be
+used for receiving or sending data which is regularly or irregularly 
+dispersed in memory</sentence>. <sentence>It also has a function called line sending, which
+enables you to send messages directly from the cache</sentence>.</paragraph>
+
+3. Software
+
+<paragraph><sentence>Programs for AP1000 are written in C or Fortran</sentence>. <sentence>On each cell, a shrunk
+version of the UNIX runs</sentence>. <sentence>Programs are run under the control of a
+runtime environment, which provides facilities for monitoring and
+symbolic debugging</sentence>.</paragraph>
+
+-- end

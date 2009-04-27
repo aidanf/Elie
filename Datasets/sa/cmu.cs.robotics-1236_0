@@ -1,0 +1,53 @@
+<0.30.8.94.16.57.22.plp+@HOSTESS.GRAPHICS.CS.CMU.EDU (Phyllis Pomerantz).0>
+Type:     Special Talk
+Who:      <speaker>Tony DeRose</speaker> / U. of Washington
+Topic:    Subdivision Surfaces: The Successors to NURBS?
+Dates:    1-Sep-94
+Time:     <stime>10:00</stime> - <etime>11:30 AM</etime>
+Place:    <location>EDRC Conference Hall - 1202 Hamburg Hall</location>
+Duration: 1.5 hours
+Host:     Andrew Witkin
+PostedBy: plp+ on 30-Aug-94 at 16:57 from HOSTESS.GRAPHICS.CS.CMU.EDU (Phyllis Pomerantz)
+Abstract: 
+
+ Type:     Special Talk
+ Who:      <speaker>Tony DeRose</speaker> / U. of Washington
+ Topic:    Subdivision Surfaces: The Successors to NURBS?
+ Dates:    1-Sep-94
+ Time:     <stime>10</stime> - <etime>11:30 a.m.</etime>
+ Place:    <location>EDRC Conference Hall - 1202 Hamburg Hall</location>
+ Duration: 1.5 hours
+ Host:     Andrew Witkin
+
+      Subdivision Surfaces: The Successors to NURBS?
+                        <speaker>Tony DeRose</speaker>
+                          Dept. of Computer Science
+                        University of Washington
+
+<paragraph><sentence>Tensor product non-uniform rational B-splines (NURBS) have become the
+standard representation for complex smoothly varying surfaces</sentence>.  <sentence>However, a
+major drawback of NURBS is the requirement that control nets consist of a
+regular rectangular grid of control points</sentence>.  <sentence>Subsequently, a NURBS surface
+can only represent limited surface topologies (planes, cylinders, and tori),
+they lack a local refinement procedure, and surface discontinuities cannot
+be locally introduced or controlled</sentence>.</paragraph>
+
+<paragraph><sentence>Subdivision surfaces overcome many of these deficiencies</sentence>.  <sentence>They are easy to
+implement, they can model surfaces of arbitrary topological type, and the
+continuity of the surface can be controlled locally</sentence>.  <sentence>Although subdivision
+surfaces have been known for nearly fifteen years, their use has been
+hindered by the lack of a closed form -- they are defined only as the limit
+of an infinite procedure</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk I will provide evidence for our belief that subdivision
+surfaces are a likely candidate to replace NURBS in future graphics and
+CAD/CAM applications</sentence>. <sentence>Much of the evidence is based on recent work that
+shows how to compute exact properties (such as positions, normal vectors,
+and thin plate energies) despite the lack of a closed form</sentence>.  <sentence>Moreover, the
+computations can be done with efficiency comparable to NURBS</sentence>.</paragraph>
+
+<paragraph> FurtherDetails: <sentence><speaker>Tony DeRose</speaker> serves as an outside member of Will Welch's
+ Thesis Committee</sentence>.</paragraph>
+
+<paragraph>FurtherDetails: <sentence><speaker>Tony DeRose</speaker> serves as an outside member of Will Welch's
+          Thesis Committee</sentence>.</paragraph>    

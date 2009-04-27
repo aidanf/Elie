@@ -1,0 +1,37 @@
+<0.01.7.92.17.12.47.droh+@N2.SP.CS.CMU.EDU (Dave OHallaron).0>
+Type:     cmu.cs.proj.warp.iwarp
+Topic:    Seminar
+Dates:    2-Jul-92
+Time:     <stime>3:30 PM</stime>
+PostedBy: droh+ on 01-Jul-92 at 17:12 from N2.SP.CS.CMU.EDU (Dave OHallaron)
+Abstract: 
+
+				<stime>3:30 PM</stime>
+			Thursday, July 2, 1992
+				<location>WeH 5403</location>
+       Performance Evaluation of Latency Tolerant Architectures
+
+			   <speaker>Prof K.Gopinath</speaker>
+			Computer Science Dept.
+		  Indian Institute of Science (IISc)
+			   Bangalore, INDIA
+
+<paragraph><sentence>The principal difficulty with many MIMD machines is the high latency associated
+with memory accesses due to factors like propagation delays in the network 
+and coherence/message overheads</sentence>. <sentence>These delays can be as large as 60-100 cycles</sentence>.
+<sentence>There are two ways of lowering the effective latency: latency reduction and
+latency tolerance</sentence>. <sentence>Latency reduction is accomplished by arranging the 
+processor's memory accesses so that most of them are to locations that are
+both spatially and temporally local</sentence>. <sentence>Caches are popular and effective devices
+for latency reduction</sentence>. <sentence>Latency tolerance is typically effected by overlapping 
+communication latency with useful computation in the processor</sentence>. <sentence>Introducing
+virtual processors and exploiting parallelism more effectively are two 
+important approaches</sentence>.</paragraph>
+
+<paragraph><sentence>In this talk, we will describe some of the work that we have undertaken
+at IISc to evaluate the performance of latency tolerant architectures</sentence>.
+<sentence>The primary aim is to compare the performance of architectures like Horizon,
+DASH, PLUS, Alewife and P-RISC with respect to resource endowment as these
+machines are widely different</sentence>. <sentence>The performance is computed by an analytical
+study of the behaviour of two algorithms: wavefront and multigrid</sentence>. <sentence>The resource
+endowment is computed by a normalized costing of various hardware structures</sentence>.</paragraph>

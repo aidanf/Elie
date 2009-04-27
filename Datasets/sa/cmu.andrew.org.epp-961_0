@@ -1,0 +1,69 @@
+<0.19.6.95.01.23.47.Omar_Ghattas@PTARMIGAN.WARP.CS.CMU.EDU.0>
+Type:     cmu.andrew.org.epp
+Who:      <speaker>Christian Bischof</speaker>
+          Mathematics and Computer Science Division
+          Argonne National Laboratory
+          9700 S. Cass Ave.
+          Argonne, IL 60439
+          bischof@mcs.anl.gov
+Topic:    On the Automated Differentiation of Computer Programs 
+Dates:    21-Jun-9
+Time:     <stime>10:30</stime> - <etime>12:00</etime>
+Place:    <location>Porter Hall 07-A</location>
+PostedBy: Omar_Ghattas on 19-Jun-95 at 01:23 from PTARMIGAN.WARP.CS.CMU.EDU
+Abstract: 
+
+
+<paragraph><sentence><speaker>Chris Bischof</speaker> of Argonne National Lab will be visiting CMU this
+Wednesday. If anyone would like to meet with him, please send me mail</sentence>.
+<sentence>Below is the abstract of a talk he will give on automatic
+differentiation</sentence>.</paragraph>
+
+-omar
+
+======================================================================
+
+ Date: Wednesday June 21
+ Time: <stime>10:30</stime>-<etime>12:00</etime>
+ Location: <location>Porter Hall 07-A</location>
+ Title: On the Automated Differentiation of Computer Programs 
+ Speaker: <speaker>Christian Bischof</speaker>
+          Mathematics and Computer Science Division
+          Argonne National Laboratory
+          9700 S. Cass Ave.
+          Argonne, IL 60439
+          bischof@mcs.anl.gov
+          http://www.mcs.anl.gov/home/bischof/index.html
+
+<paragraph><sentence>Automatic differentiation (AD) is a technique for augmenting computer
+programs with statements for the computation of derivatives</sentence>. <sentence>It
+exploits the fact that every program is a (potentially very long)
+sequence of elementary operations and employs the chain rule of
+derivative calculus to propagate these elementary derivatives</sentence>. <sentence>This
+technique is applicable to arbitrary computer programs containing
+branches, loops, and subroutine calls, and by exploiting the
+associativity of the derivative chain rule, derivatives can be
+computed potentially significantly less expensive (and more accurate
+as well) as with divided-difference computations, without tedious
+handcoding</sentence>.</paragraph>
+
+<paragraph><sentence>We give an overview of the approach underlying the ADIFOR and ADIC
+automatic differentiation tools and their capabilities. ADIFOR, which
+has been developed in collaboration with Rice University, augments
+Fortran77 codes; ADIC augments ANSI-C codes</sentence>. <sentence>We present highlights of
+ADIFOR and ADIC applications and also of the SparsLinC library which
+is integrated with both ADIFOR and ADIC and enables one to
+transparently exploit sparsity in the computation of derivative
+matrices</sentence>. <sentence>Using SparsLinC, large sparse Jacobians can be computed
+efficiently, even without a-priori knowledge of the sparsity structure
+-- it is a byproduct of the derivative computation</sentence>. <sentence>It can also be
+shown that sparse computations underly the computation of gradients of
+functions with sparse Hessians and we present examples</sentence>.</paragraph>
+
+<paragraph><sentence>Lastly, we briefly comment on the mathematical issues relating
+AD-generated derivatives to the "do-what-I-mean" derivatives when AD
+is applied to iterative schemes, point out possibilities for
+parallelizing the derivative computation of serial codes by exploiting
+chain rule associativity, and point to directions of future research,
+for example with respect to generating adjoint-type derivative codes</sentence>.</paragraph>
+

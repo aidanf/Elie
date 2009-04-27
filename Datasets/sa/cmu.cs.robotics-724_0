@@ -1,0 +1,53 @@
+<0.26.1.93.13.23.26.maa+@ISL1.RI.CMU.EDU (Michelle Agie).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Daniela Rus</speaker>, Cornell University
+Topic:    FINE MOTION PLANNING FOR DEXTEROUS MANIPULATION
+Dates:    29-Jan-93
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+PostedBy: maa+ on 26-Jan-93 at 13:23 from ISL1.RI.CMU.EDU (Michelle Agie)
+Abstract: 
+
+           ****************************************************
+
+                           RI SEMINAR
+
+ WHEN:     Friday, Jan 29, 1993; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+          Refreshments will be served by 3:15 pm
+
+ WHERE:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER:  <speaker>Daniela Rus</speaker>, Cornell University
+
+ TITLE:    FINE MOTION PLANNING FOR DEXTEROUS MANIPULATION
+
+         *Those wishing to meet and talk with <speaker>Daniela Rus</speaker> can schedule
+          an appointment with Phyliss Pomerantz, by calling 7897 or sending
+          e-mail to plp@cs
+
+<paragraph><sentence>Dexterity is an important feature for robots that 
+operate intelligently and independently in their environment</sentence>.
+<sentence>While planning dexterous manipulation can be viewed as a general 
+motion planning problem, this leads to intractable algorithms</sentence>.
+<sentence>Instead, we develop efficient geometric algorithms for the class
+of parts orientations problems</sentence>. <sentence>For a given set of cooperating agents
+(which can be robot fingers, robot arms, mobile robots, or fixtures in
+the environment), an object, and a desired reorientation, we wish to
+synthesize a  robust plan for the agents that accomplishes the desired
+reorientation</sentence>.  <sentence>We present an efficient and exact $O(n\log n)$
+algorithm for the reorientation of polygonal objects of size $n$ and
+show its extension to polyhedra</sentence>. <sentence>This algorithm exploits 
+the geometric structure of the problem and the task mechanics and
+is near-sensorless, in that it requires only sparse sensing</sentence>.  </paragraph>
+
+<paragraph><sentence>We are currently implementing the planar reorientation problem in the
+context of a team of cooperating autonomous mobile robots</sentence>.
+<sentence>The team will reorient boxes with polyhedral cross sections</sentence>.
+<sentence>Since the reorientation plan requires a model, we describe an
+algorithm for the robust acquisition of geometric models by mobile robots
+with error bounds and demonstrate its performance with a video</sentence>.
+<sentence>This work (joint with Jim Jennings) is an
+exploration of how, even with sparse and noisy sensors typically found
+on mobile robots, we can build adequate accounts and detailed models
+of manipulable objects, while satisfying the modeling and information
+requests of near-sensorless manipulation planners</sentence>. </paragraph>

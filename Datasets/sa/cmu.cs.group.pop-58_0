@@ -1,0 +1,30 @@
+<0.29.10.92.09.34.37.fp+@cs.cmu.edu (Frank Pfenning).0>
+Type:     cmu.cs.group.pop
+Topic:    Informal Talk---<speaker>Neil Jones</speaker>
+Dates:    30-Oct-92
+Time:     <stime>10:30 PM</stime> - <etime>11:30 PM</etime>
+PostedBy: fp+ on 29-Oct-92 at 09:34 from cs.cmu.edu (Frank Pfenning)
+Abstract: 
+
+			     Informal Talk
+			Friday, October 30, 1992
+			     <stime>10:30pm</stime>-<etime>11:30pm</etime>
+				<location>WeH 4601</location>
+		The Constant Speedup Theorem is False...
+		  For Reasonable Programming Languages
+
+			     <speaker>Neil D. Jones</speaker>
+		     DIKU, University of Copenhagen
+
+<paragraph><sentence>A classical and counterintuitive first theorem in complexity theory is
+that any set recognized in time f(n) can also be recognized in time
+1/2 * f(n</sentence>).  <sentence>The technique---compressing pairs of tape symbols into single
+symbols over a larger alphabet---unfortunately does not extend to
+realistic programs</sentence>.</paragraph>
+
+<paragraph>  <sentence>We prove for a realistic programming language that for any reasonable
+time bound f(n) [time-constructable] there is a constant a and a set L
+recognizable in time a * f(n) but not in time f(n)</sentence>.</paragraph>
+
+<paragraph>  <sentence>The key to the proof is a constant slowdown self-interpreter for a
+language of while programs that manipulate lists</sentence>.</paragraph>

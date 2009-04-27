@@ -1,0 +1,37 @@
+<0.5.5.93.15.09.04.fp+@cs.cmu.edu (Frank Pfenning).0>
+Type:     cmu.cs.group.pop
+Topic:    POP Seminar: Greiner
+Dates:    7-May-93
+Time:     <stime>3:00</stime> - <etime>4:00 PM</etime>
+PostedBy: fp+ on 5-May-93 at 15:09 from cs.cmu.edu (Frank Pfenning)
+Abstract: 
+
+			      POP SEMINAR
+			     Friday, May 7
+			      <stime>3:00</stime>-<etime>4:00pm</etime>
+				<location>WeH 8220</location>
+	       Standard ML Weak Polymorphism Can Be Sound
+
+			      <speaker>John Greiner</speaker>
+				  CMU
+
+<paragraph><sentence>Adding ML-style references to a Hindley-Milner polymorphic type system
+is troublesome because such a system is unsound with naive polymorphic
+generalization of reference types</sentence>.  <sentence>Tofte introduced a distinction
+between {\em imperative\/} and {\em applicative\/} type variables, such
+that applicative type variables are never in reference types, that
+provides a simple static analysis of which type variables may be
+polymorphically generalized</sentence>.  <sentence>MacQueen's {\em weak\/} type variables
+generalize imperative type variables with a counter called a {\em
+strength}</sentence>.  <sentence>The finer distinction allows a more accurate analysis of
+when a reference may be created, and thus which type variables may be
+generalized</sentence>.</paragraph>
+
+<paragraph><sentence>Unfortunately, weak polymorphism has been presented only as part of the
+implementation of the SML/NJ compiler, not as a formal type system</sentence>.  <sentence>As
+a result, it is not well understood, as its more subtle points are not
+well known</sentence>.  <sentence>Furthermore, while versions of the implementation have
+repeatedly been shown unsound, the concept has not been proven sound or
+unsound</sentence>.  <sentence>We present several formal systems of weak polymorphism, show
+their connection to the SML/NJ implementation, and show the soundness of
+most of these systems</sentence>.</paragraph>

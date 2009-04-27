@@ -1,0 +1,72 @@
+<0.24.9.90.20.28.49.Hiroaki.Saito@G.GP.CS.CMU.EDU.0>
+Type:     cmu.cs.proj.speech
+Topic:    Speech talk on Fri
+Dates:    28-Sep-90
+Time:     <stime>10:00 AM</stime>
+PostedBy: Hiroaki.Saito on 24-Sep-90 at 20:28 from G.GP.CS.CMU.EDU
+Abstract: 
+<paragraph><sentence>A researcher from NTT lab in Japan will stop by at CMU
+after attending a speech conference</sentence>.
+<sentence>His name is <speaker>Toshiaki Tsuboi</sentence></speaker>.</paragraph>
+
+<paragraph><sentence>He will give the following talk at <stime>10am</stime> on Sep 28(Fri)
+in the <location>CMT conference room (BoM 109</location>)</sentence>.
+<sentence>He will also show the video tape of his lab</sentence>.
+<sentence>He would like to have discussion after the talk</sentence>.
+<sentence>Please come</sentence>!</paragraph>
+----------------------
+A Prototype for a Speech-to-Text Transcription System  
+
+<speaker>Toshiaki Tsuboi</speaker> and Noboru Sugamura
+Nippon Telegraph and Telephone Corporation
+Human Interface Laboratories (230C)
+Yokosuka-shi, Take, 1-2356, KANAGAWA,238-03 JAPAN
+ Phone:0468-59-2934,Fax:0468-59-3833
+
+<paragraph>        <sentence>A prototype for a speech-to-text transcription 
+system is described</sentence>.  <sentence>This system recognizes continuous 
+phrase speech and transcribes it in Japanese text</sentence>.  <sentence>This 
+paper outlines methods for acoustic and linguistic 
+processing, and describes the system configuration and 
+results of performance evaluation tests</sentence>.</paragraph>
+<paragraph>        <sentence>First, the user inputs 120 consonant-vowel syllables
+(CVs) and 600 high-frequency words allowing the system to 
+make initial CV and word templates as the basis for 
+recognition</sentence>.  <sentence>As one speaks texts phrase by phrase, it is 
+recognized by a word-spotting method using a continuous 
+dynamic programming technique</sentence>.  <sentence>High frequency words and CVs
+in continuous phrase speech are detected using established 
+CV and word templates</sentence>.  <sentence>They are converted to phrase 
+candidates using a word dictionary, inflection table, and an
+attached word dictionary</sentence>.  <sentence>If a word-chain in a candidate 
+phrase is matched with a frequent word co-occurrence 
+pattern, or a pair of adjacent candidate phrases are matched
+with a frequent phrase co-occurrence pattern, these 
+candidate phrases take precedence over all others</sentence>.  <sentence>Finally,
+ten high-score phrase translation candidates remain, and the
+system displays the most feasible one on the monitor</sentence>.  <sentence>After
+the entire text is input orally, one corrects recognition 
+results by monitoring the input text aurally</sentence>.  <sentence>If a phrase 
+conversion result is incorrect, one selects the right one 
+from the ten phrase candidates, or corrects the nearest one 
+with the keyboard</sentence>.  <sentence>The speech data is also used to adjust 
+the CV templates eliminating ineffective ones and adding 
+effective CV syllables in the input speech</sentence>.</paragraph> 
+<paragraph>        <sentence>A performance evaluation test was carried out for 
+X-ray CT scanning reports</sentence>.  <sentence>Before the test, a word 
+dictionary and co-occurrence patterns were extracted by 
+analyzing 1,500 scanning reports which contained a total of 
+about 70,000 phrases</sentence>.  <sentence>The current dictionary vocabulary 
+size (about 2,500 words) and the number of co-occurrence 
+patterns (about 2,000) were established at this time</sentence>.  
+<sentence>Phrase-recognition accuracies of 65-75% and 30-50% were 
+obtained for normal, and abnormal CT reports, respectively</sentence>. 
+<sentence>Accuracy was lower for abnormal reports because of the 
+complexity of the text</sentence>.  <sentence>Input speeds of 30-50 
+characters/minute and 10-20 characters/minute were obtained 
+respectively</sentence>.  <sentence>After iterative training, phrase-recognition 
+accuracies were improved by about 10% and input speeds were 
+improved by about 10 characters/minute</sentence>.  <sentence>These input speeds 
+were a little lower than that of a professional transcriber</sentence>.
+<sentence>Testing on time and fatigue benefits against keyboard inputs
+at a hospital is currently being conducted</sentence>.</paragraph>

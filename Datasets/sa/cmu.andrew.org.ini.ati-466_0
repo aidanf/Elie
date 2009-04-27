@@ -1,0 +1,39 @@
+<0.7.10.94.13.05.23.tt1b+@andrew.cmu.edu.0>
+Type:     cmu.andrew.org.ini.ati
+Topic:    AN ARCHITECTURAL DESIGN OF A TOOLKIT FOR SYNCHRONOUS 
+          GROUPWARE APPLICATIONS
+Dates:    13-Oct-94
+Time:     <stime>2:00</stime> - <etime>4:00</etime>
+Place:    <location>HbH 2222</location>
+PostedBy: Tracy Farbacher on 7-Oct-94 at 13:05 from andrew.cmu.edu
+Abstract: 
+
+
+ TITLE:   AN ARCHITECTURAL DESIGN OF A TOOLKIT FOR SYNCHRONOUS 
+          GROUPWARE APPLICATIONS
+ DATE:    October 13, 1994
+ TIME:    <stime>2:00</stime> - <etime>4:00</etime>
+ PLACE:   <location>HbH 2222</location>
+ BY:       <speaker>Nobuhisa Yoda</speaker>
+
+<paragraph><sentence>The central question studied in this Masters thesis is how to design
+high-level reusable components for developing synchronous groupware
+applications</sentence>.  <sentence>A modern user interface requires the separation of
+applications into two components, namely application and graphical user
+interface</sentence>. <sentence>An effective architecture for synchronous, multiple-user
+groupware applications requires a separation of one more component 
+from the application: the management of the session and shared data</sentence>.
+<sentence>This component provides a framework that manages the  collaborative user
+session, shared data in an abstraction form, and floor control</sentence>. <sentence>This
+thesis terms this separation "coordination independence</sentence>."  <sentence>This thesis
+demonstrates a feasibility of the architecture by describing an
+experimental system, called TALISMAN, using Garnet</sentence>. </paragraph>
+
+<paragraph><sentence>TALISMAN is implemented as a single-process, centralized system with
+multiple remote graphical displays</sentence>. <sentence>The system which features this
+separation relies upon object inheritance and the constraint
+satisfaction mechanism in the underlying object system</sentence>.  <sentence>The
+architecture also makes the conversion of a single-user application into
+a multiple-user application relatively easy</sentence>. </paragraph> 
+
+<paragraph><sentence>The oral report will include a video demonstration of sample applications</sentence>.</paragraph>

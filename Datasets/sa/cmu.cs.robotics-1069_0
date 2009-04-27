@@ -1,0 +1,66 @@
+<0.25.2.94.18.28.58.xu+@IUS4.IUS.CS.CMU.EDU (Yangsheng Xu).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>John Lloyd</speaker>
+          Center for Intelligent Machines
+          McGill University
+Topic:    Sensor-Driven Robot Control: Programming,
+          Trajectory Generation, and Handling Kinematic Singularities.
+Dates:    4-Mar-94
+Time:     <stime>3:30 PM</stime> - <etime>5:00 PM</etime>
+Place:    <location>ADAMSON WING Auditorium in Baker Hall</location>
+Host:     Yangsheng Xu (xu@cs.cmu.edu)
+PostedBy: xu+ on 25-Feb-94 at 18:28 from IUS4.IUS.CS.CMU.EDU (Yangsheng Xu)
+Abstract: 
+
+
+                       RI SEMINAR
+
+ WHEN:   Friday, March 4, 1994; <stime>3:30 pm</stime> - <etime>5:00 pm</etime>
+        Refreshments will be served starting at 3:15 pm
+
+ WHERE:  <location>ADAMSON WING Auditorium in Baker Hall</location>
+
+ SPEAKER: <speaker>John Lloyd</speaker>
+ 	 Center for Intelligent Machines
+ 	 McGill University
+
+ TITLE:  Sensor-Driven Robot Control: Programming,
+ 	Trajectory Generation, and Handling Kinematic Singularities.
+
+<paragraph><sentence>This talk will describe elements of the presenter's work in sensor-driven 
+robot control</sentence>.</paragraph>
+
+<paragraph><sentence>First, a quick overview will be given of the Multi-Robot Control C Library
+(Multi-RCCL), which provides an environment for sensor-driven robot 
+programming in a UNIX (or UNIX-like) environment</sentence>. <sentence>The system provides 
+primitives for specifying various types of robot motions and, in 
+particular, allowing them to track time-varying targets</sentence>. <sentence>This latter 
+capability has allowed Multi-RCCL to serve as a research platform for 
+such applications as force and compliant control, telerobotics, and 
+visual servoing</sentence>.</paragraph>
+
+<paragraph><sentence>The next part will discuss how the Multi-RCCL trajectory generator
+creates smooth motions by blending together adjacent path segments, removing
+excess acceleration based on an estimate of the difference in path velocities</sentence>.
+<sentence>Since this method requires no advance knowledge of the path segments, it is
+well suited for situations where the paths are changing with time</sentence>. <sentence>The method
+can also be used to adjust the spatial shape of the transition curve (such as
+to have it pass around or through the transition ``via point''), which is
+useful in handling different types of geometric tasks</sentence>.</paragraph>
+
+<paragraph><sentence>The talk will conclude by describing some of the presenter's work on
+kinematic singularities</sentence>. <sentence>These are bothersome places in the manipulator
+workspace where the Jacobian loses rank and following a Cartesian path can
+cause unbounded joint velocities and accelerations</sentence>. <sentence>Since it is common for
+paths which are modified on-line to wander into singularities, proper handling
+of these situations is important</sentence>. <sentence>Usual approaches to this problem involve
+limiting the joint velocities at the expense of deviating from the desired
+path</sentence>. <sentence>The presenter has developed an alternate approach, mainly applicable to
+simpler non-redundant robots, in which the trajectory is time-scaled (in
+real-time) so as to bound both the joint velocities and accelerations without
+deviating from the desired path</sentence>. <sentence>This will be illustrated for the cases of the
+elbow and shoulder singularities of a PUMA-like manipulator</sentence>.</paragraph>
+
+ Host: 		Yangsheng Xu (xu@cs.cmu.edu)
+ Appointment: 	Lalit Katragadda (lalit@cs.cmu.edu)
+

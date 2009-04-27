@@ -1,0 +1,40 @@
+<0.20.10.93.15.35.02.plp+@PHYLLIS.ADM.CS.CMU.EDU (Phyllis Pomerantz).0>
+Type:     AI Seminar
+Who:      <speaker>Rich Korf</speaker> (UCLA)
+Topic:    Best-First Minimax Search
+Dates:    21-Oct-93
+Time:     <stime>3:30 PM</stime>
+Place:    <location>4623 Wean Hall</location>
+Host:     Dave McKeown
+PostedBy: plp+ on 20-Oct-93 at 15:35 from PHYLLIS.ADM.CS.CMU.EDU (Phyllis Pomerantz)
+Abstract: 
+
+ Type:     AI Seminar
+ Who:      <speaker>Rich Korf</speaker> (UCLA)
+ Topic:    Best-First Minimax Search
+ Dates:    21-Oct-93
+ Time:     <stime>3:30 p.m</stime>.(Note unusual day and room: Thursday - <location>4623 WeH</location>)
+ Place:    <location>4623 Wean Hall</location>
+ Host:     Dave McKeown
+
+Best-First Minimax: A Selective Search Algorithm for Two-Player Games
+by
+<speaker>Richard E. Korf</speaker>
+Computer Science Department
+University of California, Los Angeles
+
+<paragraph><sentence>We present a very simple selective minimax search algorithm for two-player
+games</sentence>. <sentence>It always expands next the frontier node at the end of the principal
+variation, or current best line of play, which is the node that determines the
+minimax value of the root</sentence>. <sentence>The algorithm requires no information other than a
+static evaluation function, and its time overhead per node is similar to that
+of alpha-beta minimax</sentence>.  <sentence>On random game trees, our algorithm outperforms an
+efficient implementation of alpha-beta, giving both the same amount of
+computation</sentence>.  <sentence>In the game of Othello, using the evaluation function from Bill,
+the world's best program, best-first minimax also outplays alpha-beta</sentence>.  <sentence>We
+present an implementation of the algorithm that reduces its space complexity
+from exponential to linear in the search depth, at the cost of increased time
+complexity</sentence>.  <sentence>Finally, we present a hybrid best-first extension algorithm that
+combines alpha-beta and best-first minimax, and performs significantly better
+than either pure algorithm in both domains</sentence>.</paragraph>
+

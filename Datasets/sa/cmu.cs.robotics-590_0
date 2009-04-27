@@ -1,0 +1,47 @@
+<0.13.10.92.16.41.26.tmeadows@resumix.portal.com (Tim Meadows).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Gregory D. Hager</speaker> - 
+          Department of Computer Science
+          Yale University
+Topic:    Techniques for Task-Directed Sensor Data 
+          Fusion and Sensor Planning
+Dates:    16-Oct-92
+Time:     <stime>3:30</stime> - <etime>5:00 PM</etime>
+Place:    <location>DOHERTY HALL 2315</location> (*NOTE ROOM*)
+PostedBy: tmeadows on 13-Oct-92 at 16:41 from resumix.portal.com (Tim Meadows)
+Abstract: 
+
+RI SEMINAR
+
+ WHEN:		Friday, 16 Ocotober 1992, <stime>3:30</stime> - <etime>5:00 pm</etime>
+		Refreshments to be served by 3:15 pm
+
+ WHERE:		<location>DOHERTY HALL 2315</location> (*NOTE ROOM*)
+
+ SPEAKER:		<speaker>Gregory D. Hager</speaker> - 
+ 		Department of Computer Science
+ 	 	Yale University
+
+ TITLE:		Techniques for Task-Directed Sensor Data 
+ 		Fusion and Sensor Planning
+
+<paragraph><sentence>The growing popularity of flexible, high-bandwidth sensing in robotic systems has posed many new problems for the control of sensors and sensor information processing</sentence>.  <sentence>My approach to these problems assumes that the objective of sensing is to minimize effort while maximizing the likelihood of a good or correct decision</sentence>.  <sentence>In general, any further quantification of the latter depends heavily on the specifics of a given robot task, so I refer to this approach as ``task-directed'' sensing</sentence>.</paragraph>
+
+<paragraph><sentence>This talk describes and compares two complementary approaches to solving task-directed sensing problems</sentence>.  <sentence>The first approach employs decision-theoretic methods for quantifying the value of sensor information, and relies on a novel, grid-based approximation to Bayes' theorem for combining information and representing uncertainty</sentence>.  <sentence>I describe the application of these methods to a tracking-based vision system with controllable focus of attention and briefly present some experimental results</sentence>.</paragraph>
+
+<paragraph><sentence>The second approach employs a set-based representation of uncertainty</sentence>. <sentence>Rather than optimizing a statistical criterion, the goal of this method is to satisfy a system of inequality constraints that represent both sensor information and task-specific decision criteria</sentence>.  <sentence>While doing so, the system adapts its data processing and data representation to the available sensor data and decision criteria</sentence>.  <sentence>I show several examples, taken from the manipulation domain, where adding task constraints to the sensing probl
+
+em significantly improves processing performance</sentence>.  <sentence>In situations where multiple objects are present, this adaptation leads to a natural, task-directed, focus-of-attention mechanism</sentence>.</paragraph>
+
+<paragraph><sentence>Finally, depending on time and interest, I will briefly discuss work on generalizing set-based methods to unstructured environments, and also outline recent work in sensor planning for controlling actions</sentence>.</paragraph>
+
+Hosted By:  Hagen Schempf,  x6884
+
+****************|**************************|**************************
+*               |                          |                         *
+*Tim Meadows    |  Field Robotics Center   | Carnegie Mellon Univ.   *
+*               |                          |                         *
+*412-268-7085   |  Fax: 412-682-1793       | tmeadows@frc.ri.cmu.edu *
+*               |                          |                         *
+**********************************************************************
+

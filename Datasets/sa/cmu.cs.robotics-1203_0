@@ -1,0 +1,52 @@
+<0.20.7.94.18.09.55.epk+@IUS4.IUS.CS.CMU.EDU (Eric Krotkov).0>
+Type:     cmu.cs.robotics
+Who:      <speaker>Hugh Durrant-Whyte</speaker>, Oxford University
+Topic:    Navigation and Control of High-Speed Land Vehicles
+Dates:    21-Jul-94
+Time:     <stime>3:30</stime> - <etime>5:00</etime>
+Place:    <location>WeH 4623</location>
+PostedBy: epk+ on 20-Jul-94 at 18:09 from IUS4.IUS.CS.CMU.EDU (Eric Krotkov)
+Abstract: 
+
+
+				VASC Seminar Announcement
+				=========================
+
+ Date:  Thursday, July 21, 1994
+ Time:  <stime>3:30</stime>-<etime>5:00</etime>
+ Place:  <location>WeH 4623</location>
+
+ Speaker:  <speaker>Hugh Durrant-Whyte</speaker>, Oxford University
+ Title:	Navigation and Control of High-Speed Land Vehicles
+
+<paragraph><sentence>We describe a current project to develop and demonstrate the
+estimation and control of an outdoor vehicle at speeds up to 25m/s</sentence>.
+<sentence>The project has three main themes</sentence>. <sentence>First is the development and
+integration of a number of low-cost sensing systems to
+provide appropriate measurements of vehicle location</sentence>. <sentence>These sensors
+include strap-down inertial platform, a civilian GPS (Navstar)
+receiver, a millimeter-wave terrain-aiding sensor, a ground velocity
+sensor and wheel encoders</sentence>. <sentence>The second theme is the development of 
+dynamic vehicle models capable of describing the behaviour of
+high-speed vehicles</sentence>.  <sentence>These models encorporate not only knowledge of 
+vehicle location and velocity, but also dynamic  characteristics of 
+the chassis including vehicle roll and chassis distortion, tyre 
+deformation and skid, and steer geometry and slip  mechanics</sentence>. 
+<sentence>The third theme is the development of appropriate high-speed 
+data fusion algorithms for this type of application based on the use
+of the extended Kalman filter as a primary location estimation method</sentence>.</paragraph>
+
+<paragraph><sentence>We will concentrate on describing two main elements of the work we
+have done todate</sentence>. <sentence>The first is the development  and exploitation of
+the both the models for the vehicle sensors and models of the vehicle
+itself</sentence>. <sentence>We describe the essential pay-off between the accuracy of
+these models and the resulting estimator performance</sentence>. <sentence>The second
+element is a new theory, employing freqequency-domain techniques, to
+analyse the performance of combined sensor suites and complex system
+models</sentence>. <sentence>These methods provide a systematic means of synthesizing
+appropriate data fusion architectures and in generating overall system
+error budgets</sentence>. <sentence>We will conclude with a few jokes about computer
+vision</sentence>.</paragraph>
+
+ Appointments:  Carolyn Kraft, ckraft@cs
+FurtherDetails:    Carolyn Kraft, ckraft@cs 
