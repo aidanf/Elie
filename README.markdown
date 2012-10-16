@@ -7,6 +7,14 @@ also provides a number of other text processing tools
 e.g. POS tagging, chunking, gazeteer, stemming. It is 
 written in Python.
 
+#### More info
+
+The following publications include more information about the algorithm that ELIE implements
+
+* Finn, A. (2006). *A Multi-Level Boundary Classification Approach to Information Extraction.* _Phd thesis_ (University College Dublin). [pdf](http://www.aidanf.net/publications/thesis-phd-afinn.pdf)
+* Finn, A. & Kushmerick, N. (2004). Multi-level Boundary Classification for Information Extraction. In Proc. European Conference on Machine Learning (Pisa). [pdf](http://www.aidanf.net/publications/ecml-04finn.pdf)
+* Finn, A. & Kushmerick, N. (2004). Information Extraction by Convergent Boundary Classification. AAAI-04 Workshop on Adaptive Text Extraction and Mining (San Jose). [pdf](http://www.aidanf.net/publications/atem-04finn.pdf)
+
 ### Installation
 
 Requirements:
@@ -18,7 +26,7 @@ Requirements:
   those provided)
 
 Unzip the Elie archive. Edit the basedir, BRILLTAGPATH 
-and java in the file config.py to describe your own 
+and java variables in the file config.py to describe your own 
 system. Add $ELIEHOME/lib/weka.jar to your java classpath.
 
 ### Usage
@@ -109,14 +117,6 @@ bwi-scorer or ELIEs own scorer (scorer.py). These are
 located in the specified dataDirectory.
 
 e.g. scorer.py elie.speaker.*.elie.L1.log
-
-### More info
-
-The following publications include more information about the algorithm that ELIE implements
-
-* Finn, A. (2006). *A Multi-Level Boundary Classification Approach to Information Extraction.* _Phd thesis_ (University College Dublin). [pdf](http://www.aidanf.net/publications/thesis-phd-afinn.pdf)
-* Finn, A. & Kushmerick, N. (2004). Multi-level Boundary Classification for Information Extraction. In Proc. European Conference on Machine Learning (Pisa). [pdf](http://www.aidanf.net/publications/ecml-04finn.pdf)
-* Finn, A. & Kushmerick, N. (2004). Information Extraction by Convergent Boundary Classification. AAAI-04 Workshop on Adaptive Text Extraction and Mining (San Jose). [pdf](http://www.aidanf.net/publications/atem-04finn.pdf)
 
 ### Licence
 
